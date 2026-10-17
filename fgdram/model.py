@@ -103,11 +103,11 @@ class Simulator:
     """
 
     def __init__(self, config: Config, requests: list[Request], capture=True,
-                 candidate_observer=None):
+                 candidate_observer=None, streaming=False):
         self.c = config
         self.requests = requests
         ids = [r.rid for r in requests]
-        assert len(ids) == len(set(ids)) and requests
+        assert len(ids) == len(set(ids)) and (requests or streaming)
         earlier = set()
         for r in requests:
             assert 0 <= r.grain < config.grains and 0 <= r.pb < 2
@@ -445,47 +445,58 @@ class Simulator:
         """Default policy, with an explicit hook for separately labelled diagnostics."""
         return sorted(candidates, key=lambda v: ({"RD": 0, "PRE": 1, "ACT": 2}[v[0]], v[3]))
 
+    def step(self, before_admit=None):
+        """One unchanged scheduler tick; an online producer may run after returns.
+
+        The callback can append ready physical requests. Legacy run() has no
+        callback and retains its original event and arbitration order.
+        """
+        c = self.c
+        if self.t > c.max_ns:
+            raise RuntimeError(f"timeout at {self.t} ns; completed {len(self.completed)}")
+        self.process_events()
+        if before_admit is not None:
+            before_admit()
+        self.admit()
+        self.drain_outputs()
+        candidates = self.candidates()
+        snapshot = [(candidate, self.blockers(candidate)) for candidate in candidates]
+        if not candidates:
+            self.stats["no_pending_command_candidate_ns"] += c.clock_ns
+        if candidates and all(reasons for _, reasons in snapshot):
+            self.stats["all_command_candidates_blocked_ns"] += c.clock_ns
+        for candidate, reasons in snapshot:
+            if reasons:
+                self.wait_masks["+".join(reasons)] += c.clock_ns
+                for reason in reasons:
+                    self.waits[reason + "_candidate_ns"] += c.clock_ns
+                if self.capture and len(self.wait_samples) < 4000:
+                    self.wait_samples.append({"time_ns": self.t,
+                                              "candidate": candidate,
+                                              "blockers": reasons})
+        # Row hits first, then precharges, then oldest activation. No queue-HOL gate.
+        candidates = self.order_candidates(candidates)
+        issued = set()
+        for candidate in candidates:
+            if not self.blockers(candidate):
+                self.issue(candidate)
+                issued.add(candidate)
+        if self.candidate_observer is not None:
+            self.candidate_observer(self.t, snapshot, issued)
+        for candidate, reasons in snapshot:
+            self.stats["command_candidate_ns"] += c.clock_ns
+            if not reasons and candidate not in issued:
+                self.waits["scheduler_arbitration_candidate_ns"] += c.clock_ns
+                self.wait_masks["scheduler_arbitration"] += c.clock_ns
+                if self.capture and len(self.wait_samples) < 4000:
+                    self.wait_samples.append({"time_ns": self.t, "candidate": candidate,
+                                              "blockers": ["scheduler_arbitration"]})
+        self.t += c.clock_ns
+
     def run(self):
         c = self.c
         while len(self.completed) < len(self.requests):
-            if self.t > c.max_ns:
-                raise RuntimeError(f"timeout at {self.t} ns; completed {len(self.completed)}")
-            self.process_events()
-            self.admit()
-            self.drain_outputs()
-            candidates = self.candidates()
-            snapshot = [(candidate, self.blockers(candidate)) for candidate in candidates]
-            if not candidates:
-                self.stats["no_pending_command_candidate_ns"] += c.clock_ns
-            if candidates and all(reasons for _, reasons in snapshot):
-                self.stats["all_command_candidates_blocked_ns"] += c.clock_ns
-            for candidate, reasons in snapshot:
-                if reasons:
-                    self.wait_masks["+".join(reasons)] += c.clock_ns
-                    for reason in reasons:
-                        self.waits[reason + "_candidate_ns"] += c.clock_ns
-                    if self.capture and len(self.wait_samples) < 4000:
-                        self.wait_samples.append({"time_ns": self.t,
-                                                  "candidate": candidate,
-                                                  "blockers": reasons})
-            # Row hits first, then precharges, then oldest activation. No queue-HOL gate.
-            candidates = self.order_candidates(candidates)
-            issued = set()
-            for candidate in candidates:
-                if not self.blockers(candidate):
-                    self.issue(candidate)
-                    issued.add(candidate)
-            if self.candidate_observer is not None:
-                self.candidate_observer(self.t, snapshot, issued)
-            for candidate, reasons in snapshot:
-                self.stats["command_candidate_ns"] += c.clock_ns
-                if not reasons and candidate not in issued:
-                    self.waits["scheduler_arbitration_candidate_ns"] += c.clock_ns
-                    self.wait_masks["scheduler_arbitration"] += c.clock_ns
-                    if self.capture and len(self.wait_samples) < 4000:
-                        self.wait_samples.append({"time_ns": self.t, "candidate": candidate,
-                                                  "blockers": ["scheduler_arbitration"]})
-            self.t += c.clock_ns
+            self.step()
         end = max(self.completed.values())
         # Close-page housekeeping may finish after final response; drain only events.
         while self.events:

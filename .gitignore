@@ -5,3 +5,4 @@ sources/*.txt
 results/*/traces/
 results/*/wait_samples.jsonl
 results/.local_*/
+data/.local/
