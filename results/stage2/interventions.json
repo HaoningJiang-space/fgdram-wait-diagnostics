@@ -1,0 +1,4239 @@
+[
+  {
+    "baseline": "f_q32_a4_s2_h16_C1",
+    "intervention": "f_q32_a4_s4_h16_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h16_C1",
+    "intervention": "f_q32_a4_s2_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1038,
+    "middle_time_GB_s_delta": 2.714745653573729,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h16_C2",
+    "intervention": "f_q32_a4_s4_h16_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h24_C1",
+    "intervention": "f_q32_a4_s4_h24_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h24_C1",
+    "intervention": "f_q32_a4_s2_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h24_C1",
+    "intervention": "f_q32_a4_s2_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -534,
+    "middle_time_GB_s_delta": 1.1833795013850423,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h24_C2",
+    "intervention": "f_q32_a4_s4_h24_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s2_h24_C2",
+    "intervention": "f_q32_a4_s2_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -504,
+    "middle_time_GB_s_delta": 1.5313661521886868,
+    "command_accept_comparison": {
+      "same_accept_time": 32,
+      "earlier": 2016
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 48,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 60,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 66,
+        "intervention_accept_ns": 58,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s4_h16_C1",
+    "intervention": "f_q32_a4_s4_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1038,
+    "middle_time_GB_s_delta": 2.714745653573729,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s4_h24_C1",
+    "intervention": "f_q32_a4_s4_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s4_h24_C1",
+    "intervention": "f_q32_a4_s4_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -534,
+    "middle_time_GB_s_delta": 1.1833795013850423,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a4_s4_h24_C2",
+    "intervention": "f_q32_a4_s4_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -504,
+    "middle_time_GB_s_delta": 1.5313661521886868,
+    "command_accept_comparison": {
+      "same_accept_time": 32,
+      "earlier": 2016
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 48,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 60,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 66,
+        "intervention_accept_ns": 58,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h16_C1",
+    "intervention": "f_q32_a4_s2_h16_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2048,
+    "middle_time_GB_s_delta": 2.666666666666667,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h16_C1",
+    "intervention": "f_q32_a6_s4_h16_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h16_C1",
+    "intervention": "f_q32_a6_s2_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -3070,
+    "middle_time_GB_s_delta": 5.326500106769166,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h16_C2",
+    "intervention": "f_q32_a4_s2_h16_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -16,
+    "middle_time_GB_s_delta": 0.054912213471229876,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h16_C2",
+    "intervention": "f_q32_a6_s4_h16_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C1",
+    "intervention": "f_q32_a4_s2_h24_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2048,
+    "middle_time_GB_s_delta": 2.666666666666667,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C1",
+    "intervention": "f_q32_a6_s4_h24_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C1",
+    "intervention": "f_q32_a6_s2_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C1",
+    "intervention": "f_q32_a6_s2_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2566,
+    "middle_time_GB_s_delta": 3.8271741128883994,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C2",
+    "intervention": "f_q32_a4_s2_h24_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -16,
+    "middle_time_GB_s_delta": 0.022872055163309923,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C2",
+    "intervention": "f_q32_a6_s4_h24_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s2_h24_C2",
+    "intervention": "f_q32_a6_s2_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -504,
+    "middle_time_GB_s_delta": 1.4993259938807668,
+    "command_accept_comparison": {
+      "same_accept_time": 32,
+      "earlier": 2016
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 48,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 68,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 64,
+        "intervention_dispatch_ns": 56,
+        "baseline_accept_ns": 70,
+        "intervention_accept_ns": 62,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h16_C1",
+    "intervention": "f_q32_a4_s4_h16_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2048,
+    "middle_time_GB_s_delta": 2.666666666666667,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h16_C1",
+    "intervention": "f_q32_a6_s4_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -3070,
+    "middle_time_GB_s_delta": 5.326500106769166,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h16_C2",
+    "intervention": "f_q32_a4_s4_h16_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -16,
+    "middle_time_GB_s_delta": 0.054912213471229876,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h24_C1",
+    "intervention": "f_q32_a4_s4_h24_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2048,
+    "middle_time_GB_s_delta": 2.666666666666667,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h24_C1",
+    "intervention": "f_q32_a6_s4_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2048
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h24_C1",
+    "intervention": "f_q32_a6_s4_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2566,
+    "middle_time_GB_s_delta": 3.8271741128883994,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h24_C2",
+    "intervention": "f_q32_a4_s4_h24_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -16,
+    "middle_time_GB_s_delta": 0.022872055163309923,
+    "command_accept_comparison": {
+      "earlier": 2048
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q32_a6_s4_h24_C2",
+    "intervention": "f_q32_a6_s4_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -504,
+    "middle_time_GB_s_delta": 1.4993259938807668,
+    "command_accept_comparison": {
+      "same_accept_time": 32,
+      "earlier": 2016
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 48,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 68,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 64,
+        "intervention_dispatch_ns": 56,
+        "baseline_accept_ns": 70,
+        "intervention_accept_ns": 62,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h16_C1",
+    "intervention": "f_q64_a4_s4_h16_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -408,
+    "middle_time_GB_s_delta": 1.3781090198025083,
+    "command_accept_comparison": {
+      "same_accept_time": 40,
+      "earlier": 3032
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 58,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 66,
+        "intervention_dispatch_ns": 62,
+        "baseline_accept_ns": 68,
+        "intervention_accept_ns": 64,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h16_C1",
+    "intervention": "f_q64_a4_s2_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -270,
+    "middle_time_GB_s_delta": 0.8155732918045562,
+    "command_accept_comparison": {
+      "same_accept_time": 4,
+      "earlier": 3068
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h16_C2",
+    "intervention": "f_q64_a4_s4_h16_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -254,
+    "middle_time_GB_s_delta": 0.9377362627724413,
+    "command_accept_comparison": {
+      "same_accept_time": 40,
+      "earlier": 3032
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 52,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 54,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 58,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 56,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 58,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h24_C1",
+    "intervention": "f_q64_a4_s4_h24_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 3036,
+      "earlier": 36
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 62,
+        "intervention_dispatch_ns": 58,
+        "baseline_accept_ns": 64,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 66,
+        "intervention_dispatch_ns": 62,
+        "baseline_accept_ns": 68,
+        "intervention_accept_ns": 64,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h24_C1",
+    "intervention": "f_q64_a4_s2_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 2064,
+      "earlier": 1008
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 76,
+        "intervention_accept_ns": 68,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 76,
+        "intervention_dispatch_ns": 68,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 80,
+        "intervention_dispatch_ns": 72,
+        "baseline_accept_ns": 84,
+        "intervention_accept_ns": 76,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 84,
+        "intervention_dispatch_ns": 76,
+        "baseline_accept_ns": 88,
+        "intervention_accept_ns": 80,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h24_C1",
+    "intervention": "f_q64_a4_s2_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -18,
+    "middle_time_GB_s_delta": -0.01369271304184494,
+    "command_accept_comparison": {
+      "same_accept_time": 192,
+      "earlier": 2880
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h24_C2",
+    "intervention": "f_q64_a4_s4_h24_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2,
+    "middle_time_GB_s_delta": 0.006118399763311189,
+    "command_accept_comparison": {
+      "same_accept_time": 1544,
+      "earlier": 1528
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 52,
+        "intervention_dispatch_ns": 50,
+        "baseline_accept_ns": 54,
+        "intervention_accept_ns": 52,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 56,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 58,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 56,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 58,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s2_h24_C2",
+    "intervention": "f_q64_a4_s2_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -252,
+    "middle_time_GB_s_delta": 0.8292660048464011,
+    "command_accept_comparison": {
+      "same_accept_time": 48,
+      "earlier": 3024
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 76,
+        "intervention_accept_ns": 68,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 74,
+        "intervention_dispatch_ns": 66,
+        "baseline_accept_ns": 78,
+        "intervention_accept_ns": 70,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 76,
+        "intervention_dispatch_ns": 68,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 78,
+        "intervention_dispatch_ns": 70,
+        "baseline_accept_ns": 82,
+        "intervention_accept_ns": 74,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s4_h16_C1",
+    "intervention": "f_q64_a4_s4_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -116,
+    "middle_time_GB_s_delta": 0.3752005347744891,
+    "command_accept_comparison": {
+      "same_accept_time": 8,
+      "earlier": 3064
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s4_h24_C1",
+    "intervention": "f_q64_a4_s4_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -408,
+    "middle_time_GB_s_delta": 1.3781090198025083,
+    "command_accept_comparison": {
+      "same_accept_time": 48,
+      "earlier": 3024
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 76,
+        "intervention_accept_ns": 68,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 76,
+        "intervention_dispatch_ns": 68,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 80,
+        "intervention_dispatch_ns": 72,
+        "baseline_accept_ns": 84,
+        "intervention_accept_ns": 76,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 84,
+        "intervention_dispatch_ns": 76,
+        "baseline_accept_ns": 88,
+        "intervention_accept_ns": 80,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s4_h24_C1",
+    "intervention": "f_q64_a4_s4_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -20,
+    "middle_time_GB_s_delta": -0.007574313278533751,
+    "command_accept_comparison": {
+      "same_accept_time": 194,
+      "earlier": 2878
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a4_s4_h24_C2",
+    "intervention": "f_q64_a4_s4_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -504,
+    "middle_time_GB_s_delta": 1.7608838678555312,
+    "command_accept_comparison": {
+      "same_accept_time": 48,
+      "earlier": 3024
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 76,
+        "intervention_accept_ns": 68,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 74,
+        "intervention_dispatch_ns": 66,
+        "baseline_accept_ns": 78,
+        "intervention_accept_ns": 70,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 76,
+        "intervention_dispatch_ns": 68,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 78,
+        "intervention_dispatch_ns": 70,
+        "baseline_accept_ns": 82,
+        "intervention_accept_ns": 74,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h16_C1",
+    "intervention": "f_q64_a4_s2_h16_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1538,
+    "middle_time_GB_s_delta": 3.568869069957394,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h16_C1",
+    "intervention": "f_q64_a6_s4_h16_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 3072
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h16_C1",
+    "intervention": "f_q64_a6_s2_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1586,
+    "middle_time_GB_s_delta": 3.702895609077162,
+    "command_accept_comparison": {
+      "same_accept_time": 3,
+      "earlier": 3069
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h16_C2",
+    "intervention": "f_q64_a4_s2_h16_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -222,
+    "middle_time_GB_s_delta": 0.6815467526847883,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h16_C2",
+    "intervention": "f_q64_a6_s4_h16_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -462,
+    "middle_time_GB_s_delta": 1.6270012981393336,
+    "command_accept_comparison": {
+      "same_accept_time": 40,
+      "earlier": 3032
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 60,
+        "intervention_dispatch_ns": 58,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 64,
+        "intervention_dispatch_ns": 60,
+        "baseline_accept_ns": 66,
+        "intervention_accept_ns": 62,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C1",
+    "intervention": "f_q64_a4_s2_h24_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1538,
+    "middle_time_GB_s_delta": 3.568869069957394,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C1",
+    "intervention": "f_q64_a6_s4_h24_C1",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 3072
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C1",
+    "intervention": "f_q64_a6_s2_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 3072
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C1",
+    "intervention": "f_q64_a6_s2_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1450,
+    "middle_time_GB_s_delta": 3.2786148559344443,
+    "command_accept_comparison": {
+      "same_accept_time": 3,
+      "earlier": 3069
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C2",
+    "intervention": "f_q64_a4_s2_h24_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -106,
+    "middle_time_GB_s_delta": 0.27656150098110466,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C2",
+    "intervention": "f_q64_a6_s4_h24_C2",
+    "changed_rule": "return_slots_per_grain: 2 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -78,
+    "middle_time_GB_s_delta": 0.2598290598290589,
+    "command_accept_comparison": {
+      "same_accept_time": 178,
+      "earlier": 2838,
+      "later": 56
+    },
+    "first_advanced_operations": [
+      {
+        "command": "RD",
+        "rid": 8,
+        "atom": 0,
+        "grain": 0,
+        "pb": 1,
+        "baseline_dispatch_ns": 54,
+        "intervention_dispatch_ns": 52,
+        "baseline_accept_ns": 56,
+        "intervention_accept_ns": 54,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 9,
+        "atom": 0,
+        "grain": 1,
+        "pb": 1,
+        "baseline_dispatch_ns": 58,
+        "intervention_dispatch_ns": 54,
+        "baseline_accept_ns": 60,
+        "intervention_accept_ns": 56,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 10,
+        "atom": 0,
+        "grain": 2,
+        "pb": 1,
+        "baseline_dispatch_ns": 60,
+        "intervention_dispatch_ns": 58,
+        "baseline_accept_ns": 62,
+        "intervention_accept_ns": 60,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "RD",
+        "rid": 11,
+        "atom": 0,
+        "grain": 3,
+        "pb": 1,
+        "baseline_dispatch_ns": 64,
+        "intervention_dispatch_ns": 60,
+        "baseline_accept_ns": 66,
+        "intervention_accept_ns": 62,
+        "baseline_mask_at_intervention_dispatch": [
+          "return_buffer"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s2_h24_C2",
+    "intervention": "f_q64_a6_s2_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -136,
+    "middle_time_GB_s_delta": 0.4242807531427175,
+    "command_accept_comparison": {
+      "same_accept_time": 56,
+      "earlier": 3012,
+      "later": 4
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 78,
+        "intervention_accept_ns": 70,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 74,
+        "intervention_dispatch_ns": 66,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 78,
+        "intervention_dispatch_ns": 70,
+        "baseline_accept_ns": 84,
+        "intervention_accept_ns": 76,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 80,
+        "intervention_dispatch_ns": 72,
+        "baseline_accept_ns": 86,
+        "intervention_accept_ns": 78,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h16_C1",
+    "intervention": "f_q64_a4_s4_h16_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1946,
+    "middle_time_GB_s_delta": 4.946978089759902,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h16_C1",
+    "intervention": "f_q64_a6_s4_h16_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2048,
+    "middle_time_GB_s_delta": 5.3298969072164954,
+    "command_accept_comparison": {
+      "same_accept_time": 3,
+      "earlier": 3069
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h16_C2",
+    "intervention": "f_q64_a4_s4_h16_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -14,
+    "middle_time_GB_s_delta": -0.007718282682104061,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h24_C1",
+    "intervention": "f_q64_a4_s4_h24_C1",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1538,
+    "middle_time_GB_s_delta": 3.568869069957394,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 16,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h24_C1",
+    "intervention": "f_q64_a6_s4_h16_C1",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": 0,
+    "middle_time_GB_s_delta": 0.0,
+    "command_accept_comparison": {
+      "same_accept_time": 3072
+    },
+    "first_advanced_operations": [],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h24_C1",
+    "intervention": "f_q64_a6_s4_h24_C2",
+    "changed_rule": "row_lanes: 1 -> 2",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1528,
+    "middle_time_GB_s_delta": 3.5384439157635033,
+    "command_accept_comparison": {
+      "same_accept_time": 3,
+      "earlier": 3069
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 18,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 18,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 24,
+        "intervention_accept_ns": 14,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 24,
+        "intervention_dispatch_ns": 12,
+        "baseline_accept_ns": 30,
+        "intervention_accept_ns": 18,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h24_C2",
+    "intervention": "f_q64_a4_s4_h24_C2",
+    "changed_rule": "act_command_ns: 6 -> 4",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -30,
+    "middle_time_GB_s_delta": 0.02285084091535694,
+    "command_accept_comparison": {
+      "earlier": 3072
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 0,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 0,
+        "intervention_dispatch_ns": 0,
+        "baseline_accept_ns": 6,
+        "intervention_accept_ns": 4,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 2,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [],
+        "baseline_issued_at_that_tick": true
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 6,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 14,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "f_q64_a6_s4_h24_C2",
+    "intervention": "f_q64_a6_s4_h16_C2",
+    "changed_rule": "trtp_ns: 24 -> 16",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -520,
+    "middle_time_GB_s_delta": 1.7914529914529922,
+    "command_accept_comparison": {
+      "same_accept_time": 48,
+      "earlier": 3024
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 16,
+        "atom": null,
+        "grain": 0,
+        "pb": 0,
+        "baseline_dispatch_ns": 72,
+        "intervention_dispatch_ns": 64,
+        "baseline_accept_ns": 78,
+        "intervention_accept_ns": 70,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 74,
+        "intervention_dispatch_ns": 66,
+        "baseline_accept_ns": 80,
+        "intervention_accept_ns": 72,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 18,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 78,
+        "intervention_dispatch_ns": 70,
+        "baseline_accept_ns": 84,
+        "intervention_accept_ns": 76,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 19,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 80,
+        "intervention_dispatch_ns": 72,
+        "baseline_accept_ns": 86,
+        "intervention_accept_ns": 78,
+        "baseline_mask_at_intervention_dispatch": [
+          "local_tRP",
+          "row_state_occupied"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g1_q32_C1",
+    "intervention": "scope_g1_q32_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -1038,
+    "middle_time_GB_s_delta": 2.714745653573729,
+    "command_accept_comparison": {
+      "same_accept_time": 2,
+      "earlier": 2046
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g1_q64_C1",
+    "intervention": "scope_g1_q64_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -116,
+    "middle_time_GB_s_delta": 0.3752005347744891,
+    "command_accept_comparison": {
+      "same_accept_time": 8,
+      "earlier": 3064
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 2,
+        "atom": null,
+        "grain": 2,
+        "pb": 0,
+        "baseline_dispatch_ns": 8,
+        "intervention_dispatch_ns": 4,
+        "baseline_accept_ns": 12,
+        "intervention_accept_ns": 8,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 3,
+        "atom": null,
+        "grain": 3,
+        "pb": 0,
+        "baseline_dispatch_ns": 12,
+        "intervention_dispatch_ns": 6,
+        "baseline_accept_ns": 16,
+        "intervention_accept_ns": 10,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 4,
+        "atom": null,
+        "grain": 4,
+        "pb": 0,
+        "baseline_dispatch_ns": 16,
+        "intervention_dispatch_ns": 8,
+        "baseline_accept_ns": 20,
+        "intervention_accept_ns": 12,
+        "baseline_mask_at_intervention_dispatch": [
+          "scheduler_arbitration"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g4_q32_C1",
+    "intervention": "scope_g4_q32_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -270,
+    "middle_time_GB_s_delta": 11.411471321695764,
+    "command_accept_comparison": {
+      "same_accept_time": 8,
+      "earlier": 2040
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 9,
+        "atom": null,
+        "grain": 9,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 17,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 25,
+        "atom": null,
+        "grain": 25,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g4_q64_C1",
+    "intervention": "scope_g4_q64_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -40,
+    "middle_time_GB_s_delta": 1.604338217840315,
+    "command_accept_comparison": {
+      "same_accept_time": 32,
+      "earlier": 3040
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 9,
+        "atom": null,
+        "grain": 9,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 17,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 25,
+        "atom": null,
+        "grain": 25,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g16_q32_C1",
+    "intervention": "scope_g16_q32_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -2,
+    "middle_time_GB_s_delta": 0.40437014611030975,
+    "command_accept_comparison": {
+      "same_accept_time": 1024,
+      "earlier": 1024
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 9,
+        "atom": null,
+        "grain": 9,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 17,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 25,
+        "atom": null,
+        "grain": 25,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  },
+  {
+    "baseline": "scope_g16_q64_C1",
+    "intervention": "scope_g16_q64_C2",
+    "changed_rule": "row_lanes: 1 -> 2; shared die activation budget unchanged",
+    "logical_input_equal": true,
+    "elapsed_delta_ns": -8,
+    "middle_time_GB_s_delta": -0.08909739306216125,
+    "command_accept_comparison": {
+      "same_accept_time": 904,
+      "earlier": 1778,
+      "later": 390
+    },
+    "first_advanced_operations": [
+      {
+        "command": "ACT",
+        "rid": 1,
+        "atom": null,
+        "grain": 1,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 9,
+        "atom": null,
+        "grain": 9,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 17,
+        "atom": null,
+        "grain": 17,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      },
+      {
+        "command": "ACT",
+        "rid": 25,
+        "atom": null,
+        "grain": 25,
+        "pb": 0,
+        "baseline_dispatch_ns": 4,
+        "intervention_dispatch_ns": 2,
+        "baseline_accept_ns": 8,
+        "intervention_accept_ns": 6,
+        "baseline_mask_at_intervention_dispatch": [
+          "row_command_bus"
+        ],
+        "baseline_issued_at_that_tick": false
+      }
+    ],
+    "interpretation": "paired intervention, not an additive attribution; differing histories retained"
+  }
+]

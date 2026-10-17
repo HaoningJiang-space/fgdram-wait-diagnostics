@@ -1,0 +1,79 @@
+{
+  "pass_": true,
+  "cases": 56,
+  "paired_interventions": 70,
+  "scope_reference": [
+    {
+      "name": "scope_g1_q32_C1",
+      "reference_GB_s": 8,
+      "observed_GB_s": 8.0
+    },
+    {
+      "name": "scope_g1_q32_C2",
+      "reference_GB_s": 10.667,
+      "observed_GB_s": 10.666666666666666
+    },
+    {
+      "name": "scope_g4_q32_C1",
+      "reference_GB_s": 32,
+      "observed_GB_s": 32.0
+    },
+    {
+      "name": "scope_g4_q32_C2",
+      "reference_GB_s": 42.667,
+      "observed_GB_s": 42.666666666666664
+    },
+    {
+      "name": "scope_g16_q32_C1",
+      "reference_GB_s": 85.333,
+      "observed_GB_s": 85.33333333333333
+    },
+    {
+      "name": "scope_g16_q32_C2",
+      "reference_GB_s": 85.333,
+      "observed_GB_s": 85.33333333333333
+    },
+    {
+      "name": "scope_g1_q64_C1",
+      "reference_GB_s": 15.604,
+      "observed_GB_s": 15.603809523809524
+    },
+    {
+      "name": "scope_g1_q64_C2",
+      "reference_GB_s": 16,
+      "observed_GB_s": 16.0
+    },
+    {
+      "name": "scope_g4_q64_C1",
+      "reference_GB_s": 62.534,
+      "observed_GB_s": 62.534351145038165
+    },
+    {
+      "name": "scope_g4_q64_C2",
+      "reference_GB_s": 64,
+      "observed_GB_s": 64.0
+    },
+    {
+      "name": "scope_g16_q64_C1",
+      "reference_GB_s": 170.667,
+      "observed_GB_s": 170.66666666666666
+    },
+    {
+      "name": "scope_g16_q64_C2",
+      "reference_GB_s": 170.667,
+      "observed_GB_s": 170.66666666666666
+    }
+  ],
+  "first_round_points_identical": [
+    "f_q32_a4_s4_h16_C1",
+    "f_q32_a4_s4_h16_C2",
+    "f_q64_a4_s4_h16_C1",
+    "f_q64_a4_s4_h16_C2"
+  ],
+  "artifact_files_checked": 168,
+  "candidate_and_resource_coverage": "all candidates, all 128 grains, all returned atom reservations",
+  "scope_reference_provenance": "rounded values and finite times from user-provided 0270afa audit",
+  "historical_results_unchanged": true,
+  "summary_sha256": "23af5afefc4a649993cc523ebddc55f9bb370eaee5242fb4a3f8b06a7652574a",
+  "verifier_sha256": "490ad8a27d8d904075d9ae7d32909a921ce433d327998ad164c21669b601876b"
+}

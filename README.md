@@ -12,10 +12,12 @@
 - [P0 本地复验报告](results/p0_audit/REPORT.md)、[逐组回执](results/p0_audit/receipt.json)
 - [P0 日志格式与检查边界](docs/p0-trace-contract.md)
 
-P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索和周期首尾核查；真实内部传播/关行/额度参数仍待外部校准。P2 尚未运行。旧结果保留在 `results/first_round/`，P0 证据在 `results/p0_audit/`。
+P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索和周期首尾核查；真实内部传播/关行/额度参数仍待外部校准。P2 已完成 56 个条件运行和 70 组成对干预，39 个测试通过。旧结果保留在 `results/first_round/`，P0 证据在 `results/p0_audit/`。
 
 - [P1 事件契约及 64 B 相位约束](docs/04-event-contract.md)
 - [P1 排程与完整短轨迹](results/p1_contract/REPORT.md)
+- [P2 主要发现：逐事件解释等待](docs/05-stage2-findings.md)
+- [P2 完整表格与图](results/stage2/REPORT.md)、[汇总 CSV](results/stage2/summary.csv)、[核验回执](results/stage2/verification.json)
 
 ### 首轮历史结果
 
@@ -27,12 +29,14 @@ P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索�
 
 ## 2. 复现
 
-Python 3.12，只有标准库，不需要 GPU、下载数据集或安装依赖。在本目录运行：
+Python 3.12，模拟、检查器和统计只用标准库，不需要 GPU 或数据集。交互图使用可选的 matplotlib；缺少它时仍输出完整数值表。在本目录运行：
 
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/verify_p0.py --output results/p0_recheck
 python3 scripts/run_timing_contract.py --output results/p1_recheck
+python3 scripts/run_stage2_interactions.py --output results/stage2_recheck
+python3 scripts/verify_stage2_results.py --output results/stage2_recheck
 # 仅运行当前版本的首轮输入（输出到新目录）：
 python3 scripts/run_first_round.py --output results/current_replay --records 1024
 ```
@@ -49,6 +53,8 @@ python3 scripts/run_first_round.py --output results/current_replay --records 102
 - `scripts/verify_p0.py`：固定提交对照、30 组回归和历史文件保护。
 - `fgdram/evidence.py`：分段守恒示例、时间窗口、空闲/预约区间和完整候选记录。
 - `fgdram/scheduling.py`：单独命名的离线优先级搜索和周期见证，不替代默认调度。
+- `scripts/run_stage2_interactions.py`：32 点交互、12 点多组压力、长度与 D 控制；所有候选完整记录。
+- `scripts/verify_stage2_results.py`：按事件、输入和哈希检查 P2 结果，不重复测量。
 - `fgdram/workloads.py`：固定物理起点的受控输入及负面对照。
 - `tests/test_model.py`：手工时序预期、非法重叠、并行重叠、供电窗口、反压、依赖和损坏轨迹拒绝。
 
