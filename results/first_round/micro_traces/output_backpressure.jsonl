@@ -1,0 +1,128 @@
+{"time_ns": 0, "event": "ADMIT", "rid": 0, "grain": 0, "pb": 0, "sa": 0, "row": 0, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 1, "grain": 0, "pb": 1, "sa": 2, "row": 0, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 2, "grain": 0, "pb": 0, "sa": 0, "row": 1, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 3, "grain": 0, "pb": 1, "sa": 2, "row": 1, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 4, "grain": 0, "pb": 0, "sa": 0, "row": 2, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 5, "grain": 0, "pb": 1, "sa": 2, "row": 2, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 6, "grain": 0, "pb": 0, "sa": 0, "row": 3, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "ADMIT", "rid": 7, "grain": 0, "pb": 1, "sa": 2, "row": 3, "size": 64, "offset": 0, "release_ns": 0, "depends": []}
+{"time_ns": 0, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 0, "rid": 0, "group": 0, "lane": 0, "accept_ns": 4, "duration_ns": 4}
+{"time_ns": 4, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 4, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 1, "rid": 1, "group": 0, "lane": 0, "accept_ns": 8, "duration_ns": 4}
+{"time_ns": 8, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 18, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 0, "group": 0, "lane": 0, "accept_ns": 20, "duration_ns": 2}
+{"time_ns": 20, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 0, "atom": 0, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 34, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 0, "group": 0, "lane": 0, "accept_ns": 36, "duration_ns": 2}
+{"time_ns": 36, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 0, "atom": 0, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 36, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 0, "atom": 1, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 50, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 1, "group": 0, "lane": 0, "accept_ns": 52, "duration_ns": 2}
+{"time_ns": 52, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 0, "atom": 1, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 52, "event": "PRE_START", "grain": 0, "pb": 0, "auto": true, "sa": 0, "row": 0, "activation_id": 1}
+{"time_ns": 52, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 1, "atom": 0, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 64, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 0, "rid": 2, "group": 0, "lane": 0, "accept_ns": 68, "duration_ns": 4}
+{"time_ns": 66, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 1, "group": 0, "lane": 0, "accept_ns": 68, "duration_ns": 2}
+{"time_ns": 68, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 1, "atom": 0, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 68, "event": "PRE_END", "grain": 0, "pb": 0}
+{"time_ns": 68, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 68, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 1, "atom": 1, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 84, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 1, "atom": 1, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 84, "event": "PRE_START", "grain": 0, "pb": 1, "auto": true, "sa": 2, "row": 0, "activation_id": 2}
+{"time_ns": 96, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 1, "rid": 3, "group": 0, "lane": 0, "accept_ns": 100, "duration_ns": 4}
+{"time_ns": 100, "event": "PRE_END", "grain": 0, "pb": 1}
+{"time_ns": 100, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 160, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 0, "atom": 0, "sa": 0, "row": 0, "activation_id": 1, "port": 0, "ready_ns": 36, "end_ns": 176}
+{"time_ns": 176, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 0, "atom": 0, "sa": 0, "row": 0, "activation_id": 1, "port": 0}
+{"time_ns": 176, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 0, "atom": 1, "sa": 0, "row": 0, "activation_id": 1, "port": 0, "ready_ns": 52, "end_ns": 192}
+{"time_ns": 176, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 2, "group": 0, "lane": 0, "accept_ns": 178, "duration_ns": 2}
+{"time_ns": 178, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 2, "atom": 0, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 192, "event": "COMPLETE", "rid": 0, "admitted_ns": 0, "latency_ns": 192}
+{"time_ns": 192, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 0, "atom": 1, "sa": 0, "row": 0, "activation_id": 1, "port": 0}
+{"time_ns": 192, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 1, "atom": 0, "sa": 2, "row": 0, "activation_id": 2, "port": 0, "ready_ns": 68, "end_ns": 208}
+{"time_ns": 192, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 2, "group": 0, "lane": 0, "accept_ns": 194, "duration_ns": 2}
+{"time_ns": 194, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 2, "atom": 0, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 194, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 2, "atom": 1, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 208, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 1, "atom": 0, "sa": 2, "row": 0, "activation_id": 2, "port": 0}
+{"time_ns": 208, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 1, "atom": 1, "sa": 2, "row": 0, "activation_id": 2, "port": 0, "ready_ns": 84, "end_ns": 224}
+{"time_ns": 208, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 3, "group": 0, "lane": 0, "accept_ns": 210, "duration_ns": 2}
+{"time_ns": 210, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 2, "atom": 1, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 210, "event": "PRE_START", "grain": 0, "pb": 0, "auto": true, "sa": 0, "row": 1, "activation_id": 3}
+{"time_ns": 210, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 3, "atom": 0, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 222, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 0, "rid": 4, "group": 0, "lane": 0, "accept_ns": 226, "duration_ns": 4}
+{"time_ns": 224, "event": "COMPLETE", "rid": 1, "admitted_ns": 0, "latency_ns": 224}
+{"time_ns": 224, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 1, "atom": 1, "sa": 2, "row": 0, "activation_id": 2, "port": 0}
+{"time_ns": 224, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 2, "atom": 0, "sa": 0, "row": 1, "activation_id": 3, "port": 0, "ready_ns": 194, "end_ns": 240}
+{"time_ns": 224, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 3, "group": 0, "lane": 0, "accept_ns": 226, "duration_ns": 2}
+{"time_ns": 226, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 3, "atom": 0, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 226, "event": "PRE_END", "grain": 0, "pb": 0}
+{"time_ns": 226, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 226, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 3, "atom": 1, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 240, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 2, "atom": 0, "sa": 0, "row": 1, "activation_id": 3, "port": 0}
+{"time_ns": 240, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 2, "atom": 1, "sa": 0, "row": 1, "activation_id": 3, "port": 0, "ready_ns": 210, "end_ns": 256}
+{"time_ns": 240, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 4, "group": 0, "lane": 0, "accept_ns": 242, "duration_ns": 2}
+{"time_ns": 242, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 3, "atom": 1, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 242, "event": "PRE_START", "grain": 0, "pb": 1, "auto": true, "sa": 2, "row": 1, "activation_id": 4}
+{"time_ns": 242, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 4, "atom": 0, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 254, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 1, "rid": 5, "group": 0, "lane": 0, "accept_ns": 258, "duration_ns": 4}
+{"time_ns": 256, "event": "COMPLETE", "rid": 2, "admitted_ns": 0, "latency_ns": 256}
+{"time_ns": 256, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 2, "atom": 1, "sa": 0, "row": 1, "activation_id": 3, "port": 0}
+{"time_ns": 256, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 3, "atom": 0, "sa": 2, "row": 1, "activation_id": 4, "port": 0, "ready_ns": 226, "end_ns": 272}
+{"time_ns": 256, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 4, "group": 0, "lane": 0, "accept_ns": 258, "duration_ns": 2}
+{"time_ns": 258, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 4, "atom": 0, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 258, "event": "PRE_END", "grain": 0, "pb": 1}
+{"time_ns": 258, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 258, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 4, "atom": 1, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 272, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 3, "atom": 0, "sa": 2, "row": 1, "activation_id": 4, "port": 0}
+{"time_ns": 272, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 3, "atom": 1, "sa": 2, "row": 1, "activation_id": 4, "port": 0, "ready_ns": 242, "end_ns": 288}
+{"time_ns": 272, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 5, "group": 0, "lane": 0, "accept_ns": 274, "duration_ns": 2}
+{"time_ns": 274, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 4, "atom": 1, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 274, "event": "PRE_START", "grain": 0, "pb": 0, "auto": true, "sa": 0, "row": 2, "activation_id": 5}
+{"time_ns": 274, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 5, "atom": 0, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 286, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 0, "rid": 6, "group": 0, "lane": 0, "accept_ns": 290, "duration_ns": 4}
+{"time_ns": 288, "event": "COMPLETE", "rid": 3, "admitted_ns": 0, "latency_ns": 288}
+{"time_ns": 288, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 3, "atom": 1, "sa": 2, "row": 1, "activation_id": 4, "port": 0}
+{"time_ns": 288, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 4, "atom": 0, "sa": 0, "row": 2, "activation_id": 5, "port": 0, "ready_ns": 258, "end_ns": 304}
+{"time_ns": 288, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 5, "group": 0, "lane": 0, "accept_ns": 290, "duration_ns": 2}
+{"time_ns": 290, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 5, "atom": 0, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 290, "event": "PRE_END", "grain": 0, "pb": 0}
+{"time_ns": 290, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 290, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 5, "atom": 1, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 304, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 4, "atom": 0, "sa": 0, "row": 2, "activation_id": 5, "port": 0}
+{"time_ns": 304, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 4, "atom": 1, "sa": 0, "row": 2, "activation_id": 5, "port": 0, "ready_ns": 274, "end_ns": 320}
+{"time_ns": 304, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 6, "group": 0, "lane": 0, "accept_ns": 306, "duration_ns": 2}
+{"time_ns": 306, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 5, "atom": 1, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 306, "event": "PRE_START", "grain": 0, "pb": 1, "auto": true, "sa": 2, "row": 2, "activation_id": 6}
+{"time_ns": 306, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 6, "atom": 0, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 318, "event": "COMMAND", "command": "ACT", "grain": 0, "pb": 1, "rid": 7, "group": 0, "lane": 0, "accept_ns": 322, "duration_ns": 4}
+{"time_ns": 320, "event": "COMPLETE", "rid": 4, "admitted_ns": 0, "latency_ns": 320}
+{"time_ns": 320, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 4, "atom": 1, "sa": 0, "row": 2, "activation_id": 5, "port": 0}
+{"time_ns": 320, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 5, "atom": 0, "sa": 2, "row": 2, "activation_id": 6, "port": 0, "ready_ns": 290, "end_ns": 336}
+{"time_ns": 320, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 0, "rid": 6, "group": 0, "lane": 0, "accept_ns": 322, "duration_ns": 2}
+{"time_ns": 322, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 6, "atom": 0, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 322, "event": "PRE_END", "grain": 0, "pb": 1}
+{"time_ns": 322, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 322, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 6, "atom": 1, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 336, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 5, "atom": 0, "sa": 2, "row": 2, "activation_id": 6, "port": 0}
+{"time_ns": 336, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 5, "atom": 1, "sa": 2, "row": 2, "activation_id": 6, "port": 0, "ready_ns": 306, "end_ns": 352}
+{"time_ns": 336, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 7, "group": 0, "lane": 0, "accept_ns": 338, "duration_ns": 2}
+{"time_ns": 338, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 6, "atom": 1, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 338, "event": "PRE_START", "grain": 0, "pb": 0, "auto": true, "sa": 0, "row": 3, "activation_id": 7}
+{"time_ns": 338, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 7, "atom": 0, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 352, "event": "COMPLETE", "rid": 5, "admitted_ns": 0, "latency_ns": 352}
+{"time_ns": 352, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 5, "atom": 1, "sa": 2, "row": 2, "activation_id": 6, "port": 0}
+{"time_ns": 352, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 6, "atom": 0, "sa": 0, "row": 3, "activation_id": 7, "port": 0, "ready_ns": 322, "end_ns": 368}
+{"time_ns": 352, "event": "COMMAND", "command": "RD", "grain": 0, "pb": 1, "rid": 7, "group": 0, "lane": 0, "accept_ns": 354, "duration_ns": 2}
+{"time_ns": 354, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 7, "atom": 0, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 354, "event": "PRE_END", "grain": 0, "pb": 0}
+{"time_ns": 354, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 7, "atom": 1, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 368, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 6, "atom": 0, "sa": 0, "row": 3, "activation_id": 7, "port": 0}
+{"time_ns": 368, "event": "DATA_START", "grain": 0, "pb": 0, "rid": 6, "atom": 1, "sa": 0, "row": 3, "activation_id": 7, "port": 0, "ready_ns": 338, "end_ns": 384}
+{"time_ns": 370, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 7, "atom": 1, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 370, "event": "PRE_START", "grain": 0, "pb": 1, "auto": true, "sa": 2, "row": 3, "activation_id": 8}
+{"time_ns": 384, "event": "COMPLETE", "rid": 6, "admitted_ns": 0, "latency_ns": 384}
+{"time_ns": 384, "event": "DATA_END", "grain": 0, "pb": 0, "rid": 6, "atom": 1, "sa": 0, "row": 3, "activation_id": 7, "port": 0}
+{"time_ns": 384, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 7, "atom": 0, "sa": 2, "row": 3, "activation_id": 8, "port": 0, "ready_ns": 354, "end_ns": 400}
+{"time_ns": 386, "event": "PRE_END", "grain": 0, "pb": 1}
+{"time_ns": 400, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 7, "atom": 0, "sa": 2, "row": 3, "activation_id": 8, "port": 0}
+{"time_ns": 400, "event": "DATA_START", "grain": 0, "pb": 1, "rid": 7, "atom": 1, "sa": 2, "row": 3, "activation_id": 8, "port": 0, "ready_ns": 370, "end_ns": 416}
+{"time_ns": 416, "event": "COMPLETE", "rid": 7, "admitted_ns": 0, "latency_ns": 416}
+{"time_ns": 416, "event": "DATA_END", "grain": 0, "pb": 1, "rid": 7, "atom": 1, "sa": 2, "row": 3, "activation_id": 8, "port": 0}

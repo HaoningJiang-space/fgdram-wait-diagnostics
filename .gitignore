@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+sources/*.pdf
+sources/*.txt
+results/*/traces/
+results/*/wait_samples.jsonl
