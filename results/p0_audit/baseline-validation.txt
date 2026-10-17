@@ -1,0 +1,21 @@
+test_all_die_activation_window_is_retained (test_model.ResourceTests.test_all_die_activation_window_is_retained) ... ok
+test_command_and_source_analytical_limits (test_model.ResourceTests.test_command_and_source_analytical_limits) ... ok
+test_command_transport_can_overlap_tail_of_precharge (test_model.ResourceTests.test_command_transport_can_overlap_tail_of_precharge) ... ok
+test_d_preserves_mat_rate_and_aggregate_outputs (test_model.ResourceTests.test_d_preserves_mat_rate_and_aggregate_outputs) ... ok
+test_dependencies_and_bounded_issue_window (test_model.ResourceTests.test_dependencies_and_bounded_issue_window) ... ok
+test_explicit_precharge_and_automatic_precharge (test_model.ResourceTests.test_explicit_precharge_and_automatic_precharge) ... ok
+test_independent_auditor_rejects_corrupted_trace (test_model.ResourceTests.test_independent_auditor_rejects_corrupted_trace) ... ok
+test_invalid_cross_row_record_fails_instead_of_silent_split (test_model.ResourceTests.test_invalid_cross_row_record_fails_instead_of_silent_split) ... ok
+test_multi_cause_masks_and_no_head_only_scheduling (test_model.ResourceTests.test_multi_cause_masks_and_no_head_only_scheduling) ... ok
+test_output_backpressure_and_finite_return_buffers (test_model.ResourceTests.test_output_backpressure_and_finite_return_buffers) ... ok
+test_same_pseudobank_new_rows_obey_timing (test_model.ResourceTests.test_same_pseudobank_new_rows_obey_timing) ... ok
+test_same_row_stream_preserves_one_activation (test_model.ResourceTests.test_same_row_stream_preserves_one_activation) ... ok
+test_same_subarray_different_rows_conflict_across_grains (test_model.ResourceTests.test_same_subarray_different_rows_conflict_across_grains) ... ok
+test_same_subarray_same_row_is_permitted (test_model.ResourceTests.test_same_subarray_same_row_is_permitted) ... ok
+test_simultaneous_row_and_column_commands (test_model.ResourceTests.test_simultaneous_row_and_column_commands) ... ok
+test_two_pseudobanks_overlap (test_model.ResourceTests.test_two_pseudobanks_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.795s
+
+OK

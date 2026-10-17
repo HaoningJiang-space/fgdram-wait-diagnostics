@@ -131,6 +131,7 @@ class Simulator:
         self.ready_atoms = []
         self.events = []
         self.serial = 0
+        self.command_serial = 0  # trace identity only; independent of event ordering
         self.t = 0
         self.live = {}
         self.completed = {}
@@ -298,6 +299,9 @@ class Simulator:
         c, t = self.c, self.t
         s = self.rows[g, p]
         group = self.group(g)
+        self.command_serial += 1
+        command_id = self.command_serial
+        auto_precharge = False
         if kind in ("ACT", "PRE"):
             lane = next(i for i, end in enumerate(self.row_bus[group]) if end <= t)
             duration = c.act_command_ns if kind == "ACT" else c.pre_command_ns
@@ -324,12 +328,15 @@ class Simulator:
                 acts.popleft()
             acts.append(accept)
             self.last_act[rs] = accept
-            self.schedule(accept, "ACT_ACCEPT", grain=g, pb=p, sa=r.sa, row=r.row,
-                          activation_id=self.activations)
+            context = dict(sa=r.sa, row=r.row, activation_id=self.activations)
+            self.schedule(accept, "ACT_ACCEPT", grain=g, pb=p, rid=rid,
+                          command_id=command_id, **context)
         elif kind == "PRE":
+            context = dict(sa=s.row[0], row=s.row[1], activation_id=s.activation_id)
             s.close_pending = True
             s.pre_end = accept + c.trp_ns
-            self.schedule(accept, "PRE_START", grain=g, pb=p, auto=False)
+            self.schedule(accept, "PRE_START", grain=g, pb=p, auto=False,
+                          command_id=command_id, **context)
         else:
             x = self.live[rid]
             r = x.request
@@ -339,26 +346,32 @@ class Simulator:
             self.source_busy[g] = accept + c.source_ns
             s.read_hold = max(s.read_hold, accept + c.source_ns, accept + c.trtp_ns)
             self.reserved[g] += 1
-            data = dict(grain=g, pb=p, rid=rid, atom=atom, sa=r.sa, row=r.row,
-                        activation_id=s.activation_id)
+            context = dict(sa=r.sa, row=r.row, activation_id=s.activation_id,
+                           atom=atom, column_offset=r.offset + atom * c.atom_bytes,
+                           bytes=c.atom_bytes)
+            data = dict(grain=g, pb=p, rid=rid, command_id=command_id, **context)
             self.schedule(accept, "READ_ACCEPT", **data)
             # Conservative atom-ready abstraction: no extra per-MAT bandwidth.
             self.schedule(accept + max(c.tcl_ns, c.source_ns), "DATA_READY", **data)
             if c.auto_precharge and not self.wants(g, p, s.row):
+                auto_precharge = True
                 s.close_pending = True
                 pre_start = max(s.act + c.tras_ns, s.read_hold)
                 s.pre_end = pre_start + c.trp_ns
                 self.schedule(pre_start, "PRE_START",
-                              grain=g, pb=p, auto=True)
+                              grain=g, pb=p, auto=True, command_id=command_id,
+                              sa=r.sa, row=r.row, activation_id=s.activation_id)
         self.stats[kind] += 1
         self.log("COMMAND", command=kind, grain=g, pb=p, rid=rid, group=group,
-                 lane=lane, accept_ns=accept, duration_ns=duration)
+                 lane=lane, accept_ns=accept, duration_ns=duration,
+                 command_id=command_id, auto_precharge=auto_precharge, **context)
 
     def process_events(self):
         target = self.t
         while self.events and self.events[0][0] <= target:
             time, _, kind, data = heapq.heappop(self.events)
             self.t = time
+            completion = None
             if kind == "ACT_ACCEPT":
                 key = (data["grain"], data["pb"])
                 s = self.rows[key]
@@ -381,7 +394,7 @@ class Simulator:
                 self.reads_per_act[s.reads] += 1
                 s.phase = "precharging"
                 self.schedule(time + self.c.trp_ns, "PRE_END",
-                              grain=data["grain"], pb=data["pb"])
+                              **data)
             elif kind == "PRE_END":
                 s = self.rows[data["grain"], data["pb"]]
                 s.row = None
@@ -400,10 +413,12 @@ class Simulator:
                 if x.returned == x.request.size // self.c.atom_bytes:
                     self.completed[rid] = time
                     self.latencies.append(time - x.admitted)
-                    self.log("COMPLETE", rid=rid, admitted_ns=x.admitted,
-                             latency_ns=time - x.admitted)
+                    completion = dict(rid=rid, admitted_ns=x.admitted,
+                                      latency_ns=time - x.admitted)
                     del self.live[rid]
             self.log(kind, **data)
+            if completion is not None:
+                self.log("COMPLETE", **completion)
         self.t = target
 
     def drain_outputs(self):

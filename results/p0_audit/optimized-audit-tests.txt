@@ -1,0 +1,21 @@
+test_auto_pre_requires_closing_read_intent (test_audit_mutations.AuditMutationTests.test_auto_pre_requires_closing_read_intent) ... ok
+test_command_effect_time_lane_and_duplicate_identity (test_audit_mutations.AuditMutationTests.test_command_effect_time_lane_and_duplicate_identity) ... ok
+test_data_events_must_match_read_and_output_port (test_audit_mutations.AuditMutationTests.test_data_events_must_match_read_and_output_port) ... ok
+test_dependencies_and_release_rebuilt_from_admission (test_audit_mutations.AuditMutationTests.test_dependencies_and_release_rebuilt_from_admission) ... ok
+test_duplicate_return (test_audit_mutations.AuditMutationTests.test_duplicate_return) ... ok
+test_equal_time_final_return_then_completion_is_legal (test_audit_mutations.AuditMutationTests.test_equal_time_final_return_then_completion_is_legal) ... ok
+test_independent_credit_peaks_and_return_credit_overflow (test_audit_mutations.AuditMutationTests.test_independent_credit_peaks_and_return_credit_overflow) ... ok
+test_isolated_read_accept (test_audit_mutations.AuditMutationTests.test_isolated_read_accept) ... ok
+test_missing_and_duplicate_data_ready (test_audit_mutations.AuditMutationTests.test_missing_and_duplicate_data_ready) ... ok
+test_missing_auto_pre_start_or_end (test_audit_mutations.AuditMutationTests.test_missing_auto_pre_start_or_end) ... ok
+test_missing_explicit_pre_dispatch (test_audit_mutations.AuditMutationTests.test_missing_explicit_pre_dispatch) ... ok
+test_positive_and_negative_output_borrowing_controls (test_audit_mutations.AuditMutationTests.test_positive_and_negative_output_borrowing_controls) ... ok
+test_record_completion_requires_every_atom_not_just_one (test_audit_mutations.AuditMutationTests.test_record_completion_requires_every_atom_not_just_one) ... ok
+test_six_reported_holes_are_rejected (test_audit_mutations.AuditMutationTests.test_six_reported_holes_are_rejected) ... ok
+test_unknown_event_and_legacy_log_are_not_silently_accepted (test_audit_mutations.AuditMutationTests.test_unknown_event_and_legacy_log_are_not_silently_accepted) ... ok
+test_wrong_column_offset_even_if_entire_chain_agrees (test_audit_mutations.AuditMutationTests.test_wrong_column_offset_even_if_entire_chain_agrees) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.079s
+
+OK

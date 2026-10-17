@@ -4,7 +4,17 @@
 
 当前是从空目录新建的条件命令模型，使用 FGDRAM 原文公开结构/时序并显式列出缺失参数。**内部校验通过不等于原论文复现通过。** A 尚未建立额外独立电路契约，不运行；已实现 base/C/D/CD。
 
-## 1. 第一份结果
+## 1. 审计与当前状态
+
+已完成 P0：命令编号、发送/生效对应、行上下文、逐块返回和完成条件，以及独立重建请求/返回额度。六类原检查器漏检均有错误注入回归；原 30 组命令安排、完成时间和统计保持一致。
+
+- [0270afa 审计结论与 P0/P1/P2 指导](docs/03-audit-next-stage-0270afa.md)
+- [P0 本地复验报告](results/p0_audit/REPORT.md)、[逐组回执](results/p0_audit/receipt.json)
+- [P0 日志格式与检查边界](docs/p0-trace-contract.md)
+
+P1 时序含义与 64 B 排程仍待核实，P2 尚未运行。旧结果保留在 `results/first_round/`，新增证据在 `results/p0_audit/`。
+
+### 首轮历史结果
 
 - [资源共享、来源和假设](docs/01-resource-contract.md)
 - [短命令记录的逐步解释](docs/02-command-walkthrough.md)
@@ -18,10 +28,12 @@ Python 3.12，只有标准库，不需要 GPU、下载数据集或安装依赖�
 
 ```bash
 python3 -m unittest discover -s tests -v
-python3 scripts/run_first_round.py --output results/first_round --records 1024
+python3 scripts/verify_p0.py --output results/p0_recheck
+# 仅运行当前版本的首轮输入（输出到新目录）：
+python3 scripts/run_first_round.py --output results/current_replay --records 1024
 ```
 
-脚本先运行测试，失败就不启动诊断运行；每次运行再执行独立轨迹检查。输入确定性生成，每个配置只跑一次，不求多种子平均。结果目录是指定的生成目标，再运行会更新其中的同名文件；可指定新的目录保留历史。
+`verify_p0.py` 从本地 Git 对象提取固定提交到临时目录，对照旧检查器漏洞、原轨迹哈希和新日志的逐事件投影；需要完整历史中的 `0270afa`，不需要网络。脚本先运行测试，失败就不启动诊断运行；每次运行再执行独立轨迹检查。输入确定性生成，每个配置只跑一次，不求多种子平均。结果目录是指定的生成目标，再运行会更新其中的同名文件；可指定新的目录保留历史。
 
 本地保留全量性能轨迹 `results/first_round/traces/`，Git 排除它们和论文 PDF/提取全文。小规模校验轨迹、统计和 SHA-256 收据纳入版本管理。PDF 来源：[FGDRAM MICRO 2017](https://www.cs.utexas.edu/~skeckler/pubs/MICRO_2017_Fine_Grained_DRAM.pdf)。没有 PDF 也能运行，manifest 会明确记录源 PDF 哈希为空。
 
@@ -29,6 +41,8 @@ python3 scripts/run_first_round.py --output results/first_round --records 1024
 
 - `fgdram/model.py`：分离行列命令接口、物理行状态、源端泵读、有限返回槽、出口、跨组激活规则。
 - `fgdram/audit.py`：从输出轨迹独立检查资源区间、时序、冲突、激活窗口及返回守恒，不调用调度器判定函数。
+- `tests/test_audit_mutations.py`：六类已报告漏洞、额外事件链破坏和 D 正负对照。
+- `scripts/verify_p0.py`：固定提交对照、30 组回归和历史文件保护。
 - `fgdram/workloads.py`：固定物理起点的受控输入及负面对照。
 - `tests/test_model.py`：手工时序预期、非法重叠、并行重叠、供电窗口、反压、依赖和损坏轨迹拒绝。
 
