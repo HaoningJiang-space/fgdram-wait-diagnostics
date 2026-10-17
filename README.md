@@ -12,7 +12,13 @@
 - [P0 本地复验报告](results/p0_audit/REPORT.md)、[逐组回执](results/p0_audit/receipt.json)
 - [P0 日志格式与检查边界](docs/p0-trace-contract.md)
 
-P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索和周期首尾核查；真实内部传播/关行/额度参数仍待外部校准。P2 已完成 56 个条件运行和 70 组成对干预，39 个测试通过。旧结果保留在 `results/first_round/`，P0 证据在 `results/p0_audit/`。
+P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索和周期首尾核查；真实内部传播/关行/额度参数仍待外部校准。P2 已完成 56 个条件运行和 70 组成对干预。旧结果保留在 `results/first_round/`，P0 证据在 `results/p0_audit/`。
+
+P3 已完成在线逻辑地址层，以及 MovieLens 真实编号生成的完整 120 B 向量访问：38 个运行、152 个本地证据文件通过复验，当前 53 个测试通过。**这份小表不能支持新的阵列动机**：C 在真实编号下仅改善 0–1.39%，3 个预约与 4 个相同；缓存能容纳工作集后第二遍没有 DRAM 读取。这是条件访问模型，不是实测应用性能。
+
+- [P3 结果、具体拆分和等待事件](results/stage3/REPORT.md)、[汇总 CSV](results/stage3/summary.csv)、[核验回执](results/stage3/verification.json)
+- [ad1005b 用户审计反馈与 P3 决策](docs/06-ad1005b-review-and-p3.md)
+- [逻辑地址、缓存、有限生产者与完成契约](docs/07-online-gather-contract.md)
 
 - [P1 事件契约及 64 B 相位约束](docs/04-event-contract.md)
 - [P1 排程与完整短轨迹](results/p1_contract/REPORT.md)
@@ -29,10 +35,13 @@ P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索�
 
 ## 2. 复现
 
-Python 3.12，模拟、检查器和统计只用标准库，不需要 GPU 或数据集。交互图使用可选的 matplotlib；缺少它时仍输出完整数值表。在本目录运行：
+模拟、检查器和统计只用 Python 标准库，不需要 GPU。P0–P2 不需要数据集；P3 首次从官方来源下载并校验 MovieLens 索引。交互图使用可选的 matplotlib；缺少它时仍输出完整数值表。在本目录运行：
 
 ```bash
 python3 -m unittest discover -s tests -v
+python3 scripts/run_stage3_gather.py --download --output results/stage3_recheck
+python3 scripts/verify_stage3_results.py --output results/stage3_recheck
+# 以下是历史阶段复验入口，无需为 P3 重复执行 P2 扫描：
 python3 scripts/verify_p0.py --output results/p0_recheck
 python3 scripts/run_timing_contract.py --output results/p1_recheck
 python3 scripts/run_stage2_interactions.py --output results/stage2_recheck
@@ -45,6 +54,8 @@ python3 scripts/run_first_round.py --output results/current_replay --records 102
 
 本地保留全量性能轨迹 `results/first_round/traces/`，Git 排除它们和论文 PDF/提取全文。小规模校验轨迹、统计和 SHA-256 收据纳入版本管理。PDF 来源：[FGDRAM MICRO 2017](https://www.cs.utexas.edu/~skeckler/pubs/MICRO_2017_Fine_Grained_DRAM.pdf)。没有 PDF 也能运行，manifest 会明确记录源 PDF 哈希为空。
 
+P3 输出目录必须是新目录，不覆盖已存结果。原始 MovieLens 编号和可逆地址轨迹按源数据许可留在本地，不随 Git 再分发；公开输入来源、提取规则、哈希、汇总和脱敏事件。生产者在各结构上根据实际返回重新推进，没有重放旧机器的时间戳。
+
 ## 3. 代码
 
 - `fgdram/model.py`：分离行列命令接口、物理行状态、源端泵读、有限返回槽、出口、跨组激活规则。
@@ -56,6 +67,9 @@ python3 scripts/run_first_round.py --output results/current_replay --records 102
 - `scripts/run_stage2_interactions.py`：32 点交互、12 点多组压力、长度与 D 控制；所有候选完整记录。
 - `scripts/verify_stage2_results.py`：按事件、输入和哈希检查 P2 结果，不重复测量。
 - `fgdram/workloads.py`：固定物理起点的受控输入及负面对照。
+- `fgdram/frontend.py`、`fgdram/frontend_audit.py`：逻辑 lookup 拆分、在线缓存/合并/完成，以及独立逐字节核查。
+- `fgdram/index_input.py`：固定来源与哈希的真实编号、完整向量布局及匹配均匀输入。
+- `scripts/run_stage3_gather.py`、`scripts/verify_stage3_results.py`：有界 P3 对照和存档证据复验。
 - `tests/test_model.py`：手工时序预期、非法重叠、并行重叠、供电窗口、反压、依赖和损坏轨迹拒绝。
 
 未进行实际应用或硬件加速测量；未实现现代 3D 目标配置、RTL、热模型或 PPA。

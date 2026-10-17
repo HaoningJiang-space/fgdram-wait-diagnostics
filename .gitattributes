@@ -1,0 +1,2 @@
+# Preserve CSV byte hashes; Python csv.writer uses RFC-style CRLF records.
+*.csv -text whitespace=cr-at-eol

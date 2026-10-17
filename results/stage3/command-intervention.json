@@ -1,0 +1,40 @@
+{
+  "logical_lookup": 6,
+  "evidence": [
+    {
+      "configuration": "base",
+      "time_ns": 12,
+      "operation": "ACT for lookup 6 first physical fragment",
+      "blockers": [
+        "scheduler_arbitration"
+      ],
+      "issued": false
+    },
+    {
+      "configuration": "base",
+      "time_ns": 14,
+      "operation": "ACT for lookup 6 first physical fragment",
+      "blockers": [
+        "row_command_bus"
+      ],
+      "issued": false
+    },
+    {
+      "configuration": "C",
+      "time_ns": 12,
+      "operation": "ACT for lookup 6 first physical fragment",
+      "blockers": [],
+      "issued": true
+    },
+    {
+      "configuration": "C",
+      "time_ns": 14,
+      "operation": "ACT for lookup 6 first physical fragment",
+      "blockers": [
+        "row_state_occupied"
+      ],
+      "issued": false
+    }
+  ],
+  "note": "At 14 ns C has already dispatched this ACT; its row_state_occupied mask must not be interpreted as the same pending-command state as base."
+}

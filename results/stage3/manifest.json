@@ -1,0 +1,315 @@
+{
+  "cases": [
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "cache_fit",
+      "source": "movielens"
+    },
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "linear",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "single_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "die_bounded",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "base",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "C",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 16,
+      "hardware": "credit3",
+      "mapping": "xor",
+      "scenario": "die_supply",
+      "source": "uniform"
+    },
+    {
+      "groups": 1,
+      "hardware": "base",
+      "mapping": "linear",
+      "scenario": "cache_fit",
+      "source": "uniform"
+    }
+  ],
+  "code_sha256": {
+    "fgdram/__init__.py": "f99533693182ed28782909973155ff3faeaf8e04171c01f3702f910faf8e4131",
+    "fgdram/audit.py": "61418b445d94e02a4a4f1978de29f9a0d044ca27a69477db70dc0f34c2f502ba",
+    "fgdram/evidence.py": "6a9e9b98120075d2c0c8dd78df8f97ae49acfc15c607a00619d3f556d3df9993",
+    "fgdram/frontend.py": "6163252c9d2c225de6ee0c250621753eb76a8265512d8c0d895843f5a6a571e0",
+    "fgdram/frontend_audit.py": "7da1372a3a291748163257018d254ea37fae46885617daeac545648f4e1f02fc",
+    "fgdram/index_input.py": "218134d11165e714d9ad17ec6f64f29b41739e26efcc4c62033ae31ac5d77749",
+    "fgdram/model.py": "224d822cea49c66e85570ee87fa7cfe86392e19998284bd6c23bdf7c34e50562",
+    "fgdram/scheduling.py": "20a6b21780f4105cc65fb957bdf83ac7f4a518f164b7c05a446d4fc3f0d831f7",
+    "fgdram/workloads.py": "caa349b074d75a185ea4dafebdd908ed3856328be112d91f35362736f499be86",
+    "scripts/run_stage3_gather.py": "dfb6c028054181db127e659c5e34c011085252809343796be05d063e556edfa0"
+  },
+  "contract": "online-gather-v1",
+  "git_parent": "25a043a3a197c5bd4d9141f45b8924981c9a1627",
+  "limits": [
+    "No calibrated production timing or full-model speedup.",
+    "die_supply is stronger finite supply, not a saturation proof.",
+    "Power scope remains the same uncertain die-wide 32 ACT/12 ns contract.",
+    "Raw real indices/address traces are local, not redistributed."
+  ],
+  "result_sha256": {
+    "comparisons.json": "da565381b12207d948a83a7054710ca5e2d96bcaed2454d6b83b3d79c2e6a38d",
+    "runs.json": "ea634fd4d230ae5f3099f182f807b3700650012e2fecd4966d0eb78fa966a6ab",
+    "summary.csv": "33976780dd77bd09748ca77e7c8f92578a021baafb261962e86858dd1ddbf1f1"
+  },
+  "runs": 38,
+  "selection": "Declared 36-case input/mapping/supply/hardware factorial, plus two cache-fit controls.",
+  "source": {
+    "boundary": "Read-only item embedding gather generated from real indices, not a measured DRAM trace or full MF/DLRM. User vectors, bias loads, arithmetic, training and accuracy are outside this kernel.",
+    "citation": "F. Maxwell Harper and Joseph A. Konstan (2015). The MovieLens Datasets: History and Context. ACM TiiS 5(4), article 19. doi:10.1145/2827872",
+    "dimension": 30,
+    "extraction": "First 1024 lines in published u.data file order, item column minus one. File order is randomized by source; timestamps are not hardware releases.",
+    "index_source": "https://files.grouplens.org/datasets/movielens/ml-100k/u.data",
+    "item_rows": 1682,
+    "layout": "dense row-major, no per-record padding; page placement declared per run",
+    "model_dimension_source": "https://d2l.ai/chapter_recommender-systems/mf.html",
+    "record_bytes": 120,
+    "redistribution": "Source terms prohibit redistribution without separate permission. Raw indices and reversible address traces remain local and ignored; public artifacts contain aggregates, hashes and redacted event examples.",
+    "representation": "FP32 assumption; complete item vector",
+    "source_sha256": "06416e597f82b7342361e41163890c81036900f418ad91315590814211dca490",
+    "synthetic_control_seed": 20261017,
+    "table_bytes": 201840,
+    "terms": "https://files.grouplens.org/datasets/movielens/ml-100k-README.txt"
+  },
+  "timing": "legacy_0270afa"
+}

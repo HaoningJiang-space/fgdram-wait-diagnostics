@@ -1,0 +1,200 @@
+{
+  "artifacts": 152,
+  "diagnostics_sha256": "f4f84bcd06ba82041260a792b64fc8b41146dbefb6f99d04d821874d49c52b62",
+  "pass_": true,
+  "receipts": {
+    "movielens_linear_cache_fit_base": {
+      "logical_lookups": 2048,
+      "pass_": true,
+      "physical_reads": 2280
+    },
+    "movielens_linear_die_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3940
+    },
+    "movielens_linear_die_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3939
+    },
+    "movielens_linear_die_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3939
+    },
+    "movielens_linear_die_supply_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3101
+    },
+    "movielens_linear_die_supply_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3095
+    },
+    "movielens_linear_die_supply_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3095
+    },
+    "movielens_linear_single_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3941
+    },
+    "movielens_linear_single_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3942
+    },
+    "movielens_linear_single_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3942
+    },
+    "movielens_xor_die_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3936
+    },
+    "movielens_xor_die_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3937
+    },
+    "movielens_xor_die_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3937
+    },
+    "movielens_xor_die_supply_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3086
+    },
+    "movielens_xor_die_supply_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3085
+    },
+    "movielens_xor_die_supply_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3085
+    },
+    "movielens_xor_single_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3932
+    },
+    "movielens_xor_single_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3933
+    },
+    "movielens_xor_single_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3933
+    },
+    "uniform_linear_cache_fit_base": {
+      "logical_lookups": 2048,
+      "pass_": true,
+      "physical_reads": 3287
+    },
+    "uniform_linear_die_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4399
+    },
+    "uniform_linear_die_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4399
+    },
+    "uniform_linear_die_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4399
+    },
+    "uniform_linear_die_supply_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3900
+    },
+    "uniform_linear_die_supply_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3901
+    },
+    "uniform_linear_die_supply_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3901
+    },
+    "uniform_linear_single_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4401
+    },
+    "uniform_linear_single_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4400
+    },
+    "uniform_linear_single_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4400
+    },
+    "uniform_xor_die_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4401
+    },
+    "uniform_xor_die_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4402
+    },
+    "uniform_xor_die_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4402
+    },
+    "uniform_xor_die_supply_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3889
+    },
+    "uniform_xor_die_supply_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3888
+    },
+    "uniform_xor_die_supply_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 3888
+    },
+    "uniform_xor_single_bounded_C": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4403
+    },
+    "uniform_xor_single_bounded_base": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4402
+    },
+    "uniform_xor_single_bounded_credit3": {
+      "logical_lookups": 1024,
+      "pass_": true,
+      "physical_reads": 4402
+    }
+  },
+  "runs": 38,
+  "scope": "Saved source/config/input/hash, logical and physical independent replay; candidate-command correspondence and reported aggregate recomputation.",
+  "verifier_sha256": "b175fa2e1a3668e2e87345e585bf6da3734b48d7b69636942c3d5c05a1280c39"
+}

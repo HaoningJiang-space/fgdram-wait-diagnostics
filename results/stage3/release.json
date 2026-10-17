@@ -1,0 +1,20 @@
+{
+  "all_new_runs": 38,
+  "local_compressed_artifacts": 152,
+  "public_artifact_sha256": {
+    "REPORT.md": "79c4566e56afa56e44fa1da9c3e2dd23a46506d239ab91b3c125e8eedc23cba5",
+    "command-intervention.json": "fdf3319bab15a5649280b05f6b23b80ab9ef1933760dd65d02392143852719ef",
+    "comparisons.json": "da565381b12207d948a83a7054710ca5e2d96bcaed2454d6b83b3d79c2e6a38d",
+    "diagnostics.json": "f4f84bcd06ba82041260a792b64fc8b41146dbefb6f99d04d821874d49c52b62",
+    "manifest.json": "c3e2cd6bb756d740d86d6006565d752276713313e46a4dfee8978a1da32a8ac0",
+    "runs.json": "ea634fd4d230ae5f3099f182f807b3700650012e2fecd4966d0eb78fa966a6ab",
+    "summary.csv": "33976780dd77bd09748ca77e7c8f92578a021baafb261962e86858dd1ddbf1f1",
+    "validation.txt": "28472e0956a13a4aa4eb9bbc1660c590668f47889198c65733c423c535556319",
+    "verification-log.txt": "acc952e5728af055ae8de2d6f1d533a9ecf4fa2f9454d2dae9b1d8df6b1910c2",
+    "verification.json": "8198be8e914289fd4a253e869621c700aa67a2acbfea5c835cc7d30e190c5cc6"
+  },
+  "public_trace_policy": "Aggregates and redacted examples only; no MovieLens source or reversible address sequence.",
+  "python": "3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]",
+  "tests": 53,
+  "verifier_sha256": "b175fa2e1a3668e2e87345e585bf6da3734b48d7b69636942c3d5c05a1280c39"
+}
