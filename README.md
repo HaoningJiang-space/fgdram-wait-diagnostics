@@ -12,7 +12,10 @@
 - [P0 本地复验报告](results/p0_audit/REPORT.md)、[逐组回执](results/p0_audit/receipt.json)
 - [P0 日志格式与检查边界](docs/p0-trace-contract.md)
 
-P1 时序含义与 64 B 排程仍待核实，P2 尚未运行。旧结果保留在 `results/first_round/`，新增证据在 `results/p0_audit/`。
+P1 已完成模型事件解释、三个分段/额度示例、有限排程搜索和周期首尾核查；真实内部传播/关行/额度参数仍待外部校准。P2 尚未运行。旧结果保留在 `results/first_round/`，P0 证据在 `results/p0_audit/`。
+
+- [P1 事件契约及 64 B 相位约束](docs/04-event-contract.md)
+- [P1 排程与完整短轨迹](results/p1_contract/REPORT.md)
 
 ### 首轮历史结果
 
@@ -29,6 +32,7 @@ Python 3.12，只有标准库，不需要 GPU、下载数据集或安装依赖�
 ```bash
 python3 -m unittest discover -s tests -v
 python3 scripts/verify_p0.py --output results/p0_recheck
+python3 scripts/run_timing_contract.py --output results/p1_recheck
 # 仅运行当前版本的首轮输入（输出到新目录）：
 python3 scripts/run_first_round.py --output results/current_replay --records 1024
 ```
@@ -43,6 +47,8 @@ python3 scripts/run_first_round.py --output results/current_replay --records 102
 - `fgdram/audit.py`：从输出轨迹独立检查资源区间、时序、冲突、激活窗口及返回守恒，不调用调度器判定函数。
 - `tests/test_audit_mutations.py`：六类已报告漏洞、额外事件链破坏和 D 正负对照。
 - `scripts/verify_p0.py`：固定提交对照、30 组回归和历史文件保护。
+- `fgdram/evidence.py`：分段守恒示例、时间窗口、空闲/预约区间和完整候选记录。
+- `fgdram/scheduling.py`：单独命名的离线优先级搜索和周期见证，不替代默认调度。
 - `fgdram/workloads.py`：固定物理起点的受控输入及负面对照。
 - `tests/test_model.py`：手工时序预期、非法重叠、并行重叠、供电窗口、反压、依赖和损坏轨迹拒绝。
 

@@ -1,0 +1,3844 @@
+{
+  "timing_contract": "legacy_0270afa",
+  "examples": [
+    {
+      "name": "new_row_32",
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 2000000
+      },
+      "input_sha256": "ead20998dc636539a215d77fa5849980970be152ddf8aa67c6613b87768136c8",
+      "elapsed_ns": 100,
+      "audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 4,
+        "activations": 2,
+        "returned_atoms": 2,
+        "resources_checked": 5,
+        "trace_end_ns": 100,
+        "reconstructed_peaks": {
+          "live_records": 2,
+          "outstanding_atoms": 2,
+          "return_slots_per_grain": 1
+        },
+        "closed_activations": 2
+      },
+      "annotation_audit": {
+        "pass_": true,
+        "peak_assumed_buffer_bytes": {
+          "0": 32
+        },
+        "peak_reserved_slots": {
+          "0": 1
+        }
+      }
+    },
+    {
+      "name": "new_row_64",
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 2000000
+      },
+      "input_sha256": "2b6971d85e434f51eb784c0d3cfca80a4108e1f8ba6b654657669f0891b0f3cb",
+      "elapsed_ns": 132,
+      "audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 6,
+        "activations": 2,
+        "returned_atoms": 4,
+        "resources_checked": 5,
+        "trace_end_ns": 132,
+        "reconstructed_peaks": {
+          "live_records": 2,
+          "outstanding_atoms": 4,
+          "return_slots_per_grain": 2
+        },
+        "closed_activations": 2
+      },
+      "annotation_audit": {
+        "pass_": true,
+        "peak_assumed_buffer_bytes": {
+          "0": 36
+        },
+        "peak_reserved_slots": {
+          "0": 2
+        }
+      }
+    },
+    {
+      "name": "row_hits",
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 2000000
+      },
+      "input_sha256": "6a4261ea5959adf0f5aefe37e35bea7c2506c0dd6e549eeadbdcc21a515f89f4",
+      "elapsed_ns": 164,
+      "audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 9,
+        "activations": 1,
+        "returned_atoms": 8,
+        "resources_checked": 5,
+        "trace_end_ns": 164,
+        "reconstructed_peaks": {
+          "live_records": 8,
+          "outstanding_atoms": 8,
+          "return_slots_per_grain": 3
+        },
+        "closed_activations": 1
+      },
+      "annotation_audit": {
+        "pass_": true,
+        "peak_assumed_buffer_bytes": {
+          "0": 36
+        },
+        "peak_reserved_slots": {
+          "0": 3
+        }
+      }
+    }
+  ],
+  "schedules": [
+    {
+      "name": "g2_perpb2",
+      "grains": 2,
+      "records_per_pb": 2,
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 4000
+      },
+      "input_sha256": "9d45fc429aeb06b69d1de26e2b8f04c72a9d30c0623c0543fb896045877cfc43",
+      "lower_bound_ns": 164,
+      "baseline_elapsed_ns": 168,
+      "best_elapsed_ns": 168,
+      "best_policy": "legacy",
+      "trials": [
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 172,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 172,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 168,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 168,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 172,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 172,
+          "audit_pass": true
+        }
+      ],
+      "search_seconds": 0.0395291019231081,
+      "time_limit_seconds": 15,
+      "status": "fixed_policy_family_exhausted",
+      "optimality": "unresolved; heuristic search failure is not an infeasibility proof",
+      "independent_audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 24,
+        "activations": 8,
+        "returned_atoms": 16,
+        "resources_checked": 7,
+        "trace_end_ns": 168,
+        "reconstructed_peaks": {
+          "live_records": 8,
+          "outstanding_atoms": 16,
+          "return_slots_per_grain": 3
+        },
+        "closed_activations": 8
+      },
+      "periodic_witness": {
+        "row_lanes": 1,
+        "elapsed_ns": 168,
+        "same_hardware_greedy_elapsed_ns": 168,
+        "audit": {
+          "pass": true,
+          "trace_contract": "p0-v2",
+          "commands": 24,
+          "activations": 8,
+          "returned_atoms": 16,
+          "resources_checked": 7,
+          "trace_end_ns": 168,
+          "reconstructed_peaks": {
+            "live_records": 8,
+            "outstanding_atoms": 16,
+            "return_slots_per_grain": 3
+          },
+          "closed_activations": 8
+        }
+      }
+    },
+    {
+      "name": "g2_perpb4",
+      "grains": 2,
+      "records_per_pb": 4,
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 4000
+      },
+      "input_sha256": "ee33b630bd28ad856206e1a9af3bf9edb4f52419a328b950584c29562502d82c",
+      "lower_bound_ns": 292,
+      "baseline_elapsed_ns": 296,
+      "best_elapsed_ns": 296,
+      "best_policy": "legacy",
+      "trials": [
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 300,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 300,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 296,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 296,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            1
+          ],
+          "elapsed_ns": 300,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            0
+          ],
+          "elapsed_ns": 300,
+          "audit_pass": true
+        }
+      ],
+      "search_seconds": 0.12804699316620827,
+      "time_limit_seconds": 15,
+      "status": "fixed_policy_family_exhausted",
+      "optimality": "unresolved; heuristic search failure is not an infeasibility proof",
+      "independent_audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 48,
+        "activations": 16,
+        "returned_atoms": 32,
+        "resources_checked": 7,
+        "trace_end_ns": 296,
+        "reconstructed_peaks": {
+          "live_records": 16,
+          "outstanding_atoms": 32,
+          "return_slots_per_grain": 3
+        },
+        "closed_activations": 16
+      },
+      "periodic_witness": {
+        "row_lanes": 1,
+        "elapsed_ns": 296,
+        "same_hardware_greedy_elapsed_ns": 296,
+        "audit": {
+          "pass": true,
+          "trace_contract": "p0-v2",
+          "commands": 48,
+          "activations": 16,
+          "returned_atoms": 32,
+          "resources_checked": 7,
+          "trace_end_ns": 296,
+          "reconstructed_peaks": {
+            "live_records": 16,
+            "outstanding_atoms": 32,
+            "return_slots_per_grain": 3
+          },
+          "closed_activations": 16
+        },
+        "boundary_certificate": {
+          "period_ns": 64,
+          "boundaries": [
+            128,
+            192
+          ],
+          "event_streams_equal": true,
+          "carried_resource_state_equal": true,
+          "first_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -8,
+                8
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -10,
+                24
+              ],
+              [
+                "row",
+                0,
+                0,
+                -60,
+                4
+              ],
+              [
+                "row",
+                0,
+                1,
+                -28,
+                36
+              ],
+              [
+                "row",
+                1,
+                0,
+                -56,
+                8
+              ],
+              [
+                "row",
+                1,
+                1,
+                -24,
+                40
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -8,
+                8
+              ]
+            ],
+            "activation_window_history": []
+          },
+          "second_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -8,
+                8
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -10,
+                24
+              ],
+              [
+                "row",
+                0,
+                0,
+                -60,
+                4
+              ],
+              [
+                "row",
+                0,
+                1,
+                -28,
+                36
+              ],
+              [
+                "row",
+                1,
+                0,
+                -56,
+                8
+              ],
+              [
+                "row",
+                1,
+                1,
+                -24,
+                40
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -8,
+                8
+              ]
+            ],
+            "activation_window_history": []
+          },
+          "scope": "hardware period of finite legal witness; input queues are not periodic",
+          "records_per_period": 4
+        },
+        "busy_boundary_certificate": {
+          "period_ns": 64,
+          "boundaries": [
+            80,
+            144
+          ],
+          "event_streams_equal": true,
+          "carried_resource_state_equal": true,
+          "first_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -8,
+                8
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -10,
+                24
+              ],
+              [
+                "row",
+                0,
+                0,
+                -12,
+                52
+              ],
+              [
+                "row",
+                0,
+                1,
+                -44,
+                20
+              ],
+              [
+                "row",
+                1,
+                0,
+                -8,
+                56
+              ],
+              [
+                "row",
+                1,
+                1,
+                -40,
+                24
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -8,
+                8
+              ]
+            ],
+            "activation_window_history": [
+              [
+                1,
+                -8
+              ]
+            ]
+          },
+          "second_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -8,
+                8
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -10,
+                24
+              ],
+              [
+                "row",
+                0,
+                0,
+                -12,
+                52
+              ],
+              [
+                "row",
+                0,
+                1,
+                -44,
+                20
+              ],
+              [
+                "row",
+                1,
+                0,
+                -8,
+                56
+              ],
+              [
+                "row",
+                1,
+                1,
+                -40,
+                24
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -8,
+                8
+              ]
+            ],
+            "activation_window_history": [
+              [
+                1,
+                -8
+              ]
+            ]
+          },
+          "scope": "hardware period of finite legal witness; input queues are not periodic",
+          "records_per_period": 4
+        }
+      }
+    },
+    {
+      "name": "g8_perpb2",
+      "grains": 8,
+      "records_per_pb": 2,
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 4000
+      },
+      "input_sha256": "0306b9f2837dbbcf47e4f87d169434801fb5193983b1c4a5025d424d55d3a498",
+      "lower_bound_ns": 176,
+      "baseline_elapsed_ns": 194,
+      "best_elapsed_ns": 194,
+      "best_policy": "legacy",
+      "trials": [
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 226,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 194,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 222,
+          "audit_pass": true
+        }
+      ],
+      "search_seconds": 1.3549592550843954,
+      "time_limit_seconds": 15,
+      "status": "fixed_policy_family_exhausted",
+      "optimality": "unresolved; heuristic search failure is not an infeasibility proof",
+      "independent_audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 96,
+        "activations": 32,
+        "returned_atoms": 64,
+        "resources_checked": 22,
+        "trace_end_ns": 194,
+        "reconstructed_peaks": {
+          "live_records": 32,
+          "outstanding_atoms": 64,
+          "return_slots_per_grain": 3
+        },
+        "closed_activations": 32
+      },
+      "periodic_witness": {
+        "row_lanes": 2,
+        "elapsed_ns": 178,
+        "same_hardware_greedy_elapsed_ns": 178,
+        "audit": {
+          "pass": true,
+          "trace_contract": "p0-v2",
+          "commands": 96,
+          "activations": 32,
+          "returned_atoms": 64,
+          "resources_checked": 23,
+          "trace_end_ns": 178,
+          "reconstructed_peaks": {
+            "live_records": 32,
+            "outstanding_atoms": 64,
+            "return_slots_per_grain": 3
+          },
+          "closed_activations": 32
+        }
+      }
+    },
+    {
+      "name": "g8_perpb4",
+      "grains": 8,
+      "records_per_pb": 4,
+      "config": {
+        "grains": 128,
+        "grains_per_group": 8,
+        "pseudobanks": 2,
+        "subarrays": 32,
+        "row_bytes": 256,
+        "atom_bytes": 32,
+        "clock_ns": 2,
+        "act_command_ns": 4,
+        "pre_command_ns": 2,
+        "read_command_ns": 2,
+        "trcd_ns": 16,
+        "tras_ns": 29,
+        "trp_ns": 16,
+        "trc_ns": 45,
+        "tcl_ns": 16,
+        "source_ns": 16,
+        "burst_ns": 16,
+        "trtp_ns": 16,
+        "trrd_ns": 2,
+        "tfaw_ns": 12,
+        "faw_limit": 32,
+        "power_scope": "die",
+        "rrd_scope": "group",
+        "row_lanes": 1,
+        "flexible_output": false,
+        "return_slots_per_grain": 4,
+        "outstanding_records": 64,
+        "atom_queue_capacity": 256,
+        "auto_precharge": true,
+        "adjacent_sa_exclusion": true,
+        "initial_output_stall_ns": 0,
+        "max_ns": 4000
+      },
+      "input_sha256": "420c2a8f1ef283371fa5ce4646a29faac11e327a8b237dad9cd6bda2dd62f60b",
+      "lower_bound_ns": 304,
+      "baseline_elapsed_ns": 326,
+      "best_elapsed_ns": 326,
+      "best_policy": "legacy",
+      "trials": [
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "grain",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 358,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "round",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 326,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4,
+            3
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            4,
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5,
+            4
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            5,
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6,
+            5
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            6,
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7,
+            6
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            7,
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        },
+        {
+          "mode": "deadline",
+          "grain_order": [
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0,
+            7
+          ],
+          "elapsed_ns": 354,
+          "audit_pass": true
+        }
+      ],
+      "search_seconds": 4.724571944214404,
+      "time_limit_seconds": 15,
+      "status": "fixed_policy_family_exhausted",
+      "optimality": "unresolved; heuristic search failure is not an infeasibility proof",
+      "independent_audit": {
+        "pass": true,
+        "trace_contract": "p0-v2",
+        "commands": 192,
+        "activations": 64,
+        "returned_atoms": 128,
+        "resources_checked": 22,
+        "trace_end_ns": 326,
+        "reconstructed_peaks": {
+          "live_records": 64,
+          "outstanding_atoms": 128,
+          "return_slots_per_grain": 3
+        },
+        "closed_activations": 64
+      },
+      "periodic_witness": {
+        "row_lanes": 2,
+        "elapsed_ns": 306,
+        "same_hardware_greedy_elapsed_ns": 306,
+        "audit": {
+          "pass": true,
+          "trace_contract": "p0-v2",
+          "commands": 192,
+          "activations": 64,
+          "returned_atoms": 128,
+          "resources_checked": 23,
+          "trace_end_ns": 306,
+          "reconstructed_peaks": {
+            "live_records": 64,
+            "outstanding_atoms": 128,
+            "return_slots_per_grain": 3
+          },
+          "closed_activations": 64
+        },
+        "boundary_certificate": {
+          "period_ns": 64,
+          "boundaries": [
+            128,
+            192
+          ],
+          "event_streams_equal": true,
+          "carried_resource_state_equal": true,
+          "first_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "port",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "port",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "port",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "port",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "port",
+                7,
+                0,
+                -14,
+                2
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -28,
+                6
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -12,
+                22
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -10,
+                24
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -24,
+                10
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -8,
+                26
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -22,
+                12
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -6,
+                28
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -20,
+                14
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -4,
+                30
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -18,
+                16
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -2,
+                32
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -32,
+                2
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -16,
+                18
+              ],
+              [
+                "row",
+                0,
+                0,
+                -60,
+                4
+              ],
+              [
+                "row",
+                0,
+                1,
+                -28,
+                36
+              ],
+              [
+                "row",
+                1,
+                0,
+                -58,
+                6
+              ],
+              [
+                "row",
+                1,
+                1,
+                -26,
+                38
+              ],
+              [
+                "row",
+                2,
+                0,
+                -56,
+                8
+              ],
+              [
+                "row",
+                2,
+                1,
+                -24,
+                40
+              ],
+              [
+                "row",
+                3,
+                0,
+                -54,
+                10
+              ],
+              [
+                "row",
+                3,
+                1,
+                -22,
+                42
+              ],
+              [
+                "row",
+                4,
+                0,
+                -52,
+                12
+              ],
+              [
+                "row",
+                4,
+                1,
+                -20,
+                44
+              ],
+              [
+                "row",
+                5,
+                0,
+                -50,
+                14
+              ],
+              [
+                "row",
+                5,
+                1,
+                -18,
+                46
+              ],
+              [
+                "row",
+                6,
+                0,
+                -48,
+                16
+              ],
+              [
+                "row",
+                6,
+                1,
+                -16,
+                48
+              ],
+              [
+                "row",
+                7,
+                0,
+                -46,
+                18
+              ],
+              [
+                "row",
+                7,
+                1,
+                -14,
+                50
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "source",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "source",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "source",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "source",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "source",
+                7,
+                0,
+                -14,
+                2
+              ]
+            ],
+            "activation_window_history": []
+          },
+          "second_state": {
+            "crossing_intervals": [
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "port",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "port",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "port",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "port",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "port",
+                7,
+                0,
+                -14,
+                2
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -28,
+                6
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -12,
+                22
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -10,
+                24
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -24,
+                10
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -8,
+                26
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -22,
+                12
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -6,
+                28
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -20,
+                14
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -4,
+                30
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -18,
+                16
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -2,
+                32
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -32,
+                2
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -16,
+                18
+              ],
+              [
+                "row",
+                0,
+                0,
+                -60,
+                4
+              ],
+              [
+                "row",
+                0,
+                1,
+                -28,
+                36
+              ],
+              [
+                "row",
+                1,
+                0,
+                -58,
+                6
+              ],
+              [
+                "row",
+                1,
+                1,
+                -26,
+                38
+              ],
+              [
+                "row",
+                2,
+                0,
+                -56,
+                8
+              ],
+              [
+                "row",
+                2,
+                1,
+                -24,
+                40
+              ],
+              [
+                "row",
+                3,
+                0,
+                -54,
+                10
+              ],
+              [
+                "row",
+                3,
+                1,
+                -22,
+                42
+              ],
+              [
+                "row",
+                4,
+                0,
+                -52,
+                12
+              ],
+              [
+                "row",
+                4,
+                1,
+                -20,
+                44
+              ],
+              [
+                "row",
+                5,
+                0,
+                -50,
+                14
+              ],
+              [
+                "row",
+                5,
+                1,
+                -18,
+                46
+              ],
+              [
+                "row",
+                6,
+                0,
+                -48,
+                16
+              ],
+              [
+                "row",
+                6,
+                1,
+                -16,
+                48
+              ],
+              [
+                "row",
+                7,
+                0,
+                -46,
+                18
+              ],
+              [
+                "row",
+                7,
+                1,
+                -14,
+                50
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "source",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "source",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "source",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "source",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "source",
+                7,
+                0,
+                -14,
+                2
+              ]
+            ],
+            "activation_window_history": []
+          },
+          "scope": "hardware period of finite legal witness; input queues are not periodic",
+          "records_per_period": 16
+        },
+        "busy_boundary_certificate": {
+          "period_ns": 64,
+          "boundaries": [
+            80,
+            144
+          ],
+          "event_streams_equal": true,
+          "carried_resource_state_equal": true,
+          "first_state": {
+            "crossing_intervals": [
+              [
+                "command",
+                7,
+                1,
+                -2,
+                2
+              ],
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "port",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "port",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "port",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "port",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "port",
+                7,
+                0,
+                -14,
+                2
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -28,
+                6
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -12,
+                22
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -10,
+                24
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -24,
+                10
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -8,
+                26
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -22,
+                12
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -6,
+                28
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -20,
+                14
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -4,
+                30
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -18,
+                16
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -2,
+                32
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -32,
+                2
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -16,
+                18
+              ],
+              [
+                "row",
+                0,
+                0,
+                -12,
+                52
+              ],
+              [
+                "row",
+                0,
+                1,
+                -44,
+                20
+              ],
+              [
+                "row",
+                1,
+                0,
+                -10,
+                54
+              ],
+              [
+                "row",
+                1,
+                1,
+                -42,
+                22
+              ],
+              [
+                "row",
+                2,
+                0,
+                -8,
+                56
+              ],
+              [
+                "row",
+                2,
+                1,
+                -40,
+                24
+              ],
+              [
+                "row",
+                3,
+                0,
+                -6,
+                58
+              ],
+              [
+                "row",
+                3,
+                1,
+                -38,
+                26
+              ],
+              [
+                "row",
+                4,
+                0,
+                -4,
+                60
+              ],
+              [
+                "row",
+                4,
+                1,
+                -36,
+                28
+              ],
+              [
+                "row",
+                5,
+                0,
+                -2,
+                62
+              ],
+              [
+                "row",
+                5,
+                1,
+                -34,
+                30
+              ],
+              [
+                "row",
+                6,
+                1,
+                -32,
+                32
+              ],
+              [
+                "row",
+                7,
+                0,
+                -62,
+                2
+              ],
+              [
+                "row",
+                7,
+                1,
+                -30,
+                34
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "source",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "source",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "source",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "source",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "source",
+                7,
+                0,
+                -14,
+                2
+              ]
+            ],
+            "activation_window_history": [
+              [
+                1,
+                -10
+              ],
+              [
+                2,
+                -8
+              ],
+              [
+                3,
+                -6
+              ],
+              [
+                4,
+                -4
+              ],
+              [
+                5,
+                -2
+              ]
+            ]
+          },
+          "second_state": {
+            "crossing_intervals": [
+              [
+                "command",
+                7,
+                1,
+                -2,
+                2
+              ],
+              [
+                "port",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "port",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "port",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "port",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "port",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "port",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "port",
+                7,
+                0,
+                -14,
+                2
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -30,
+                4
+              ],
+              [
+                "reservation",
+                0,
+                0,
+                -14,
+                20
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -28,
+                6
+              ],
+              [
+                "reservation",
+                1,
+                0,
+                -12,
+                22
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -26,
+                8
+              ],
+              [
+                "reservation",
+                2,
+                0,
+                -10,
+                24
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -24,
+                10
+              ],
+              [
+                "reservation",
+                3,
+                0,
+                -8,
+                26
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -22,
+                12
+              ],
+              [
+                "reservation",
+                4,
+                0,
+                -6,
+                28
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -20,
+                14
+              ],
+              [
+                "reservation",
+                5,
+                0,
+                -4,
+                30
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -18,
+                16
+              ],
+              [
+                "reservation",
+                6,
+                0,
+                -2,
+                32
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -32,
+                2
+              ],
+              [
+                "reservation",
+                7,
+                0,
+                -16,
+                18
+              ],
+              [
+                "row",
+                0,
+                0,
+                -12,
+                52
+              ],
+              [
+                "row",
+                0,
+                1,
+                -44,
+                20
+              ],
+              [
+                "row",
+                1,
+                0,
+                -10,
+                54
+              ],
+              [
+                "row",
+                1,
+                1,
+                -42,
+                22
+              ],
+              [
+                "row",
+                2,
+                0,
+                -8,
+                56
+              ],
+              [
+                "row",
+                2,
+                1,
+                -40,
+                24
+              ],
+              [
+                "row",
+                3,
+                0,
+                -6,
+                58
+              ],
+              [
+                "row",
+                3,
+                1,
+                -38,
+                26
+              ],
+              [
+                "row",
+                4,
+                0,
+                -4,
+                60
+              ],
+              [
+                "row",
+                4,
+                1,
+                -36,
+                28
+              ],
+              [
+                "row",
+                5,
+                0,
+                -2,
+                62
+              ],
+              [
+                "row",
+                5,
+                1,
+                -34,
+                30
+              ],
+              [
+                "row",
+                6,
+                1,
+                -32,
+                32
+              ],
+              [
+                "row",
+                7,
+                0,
+                -62,
+                2
+              ],
+              [
+                "row",
+                7,
+                1,
+                -30,
+                34
+              ],
+              [
+                "source",
+                0,
+                0,
+                -12,
+                4
+              ],
+              [
+                "source",
+                1,
+                0,
+                -10,
+                6
+              ],
+              [
+                "source",
+                2,
+                0,
+                -8,
+                8
+              ],
+              [
+                "source",
+                3,
+                0,
+                -6,
+                10
+              ],
+              [
+                "source",
+                4,
+                0,
+                -4,
+                12
+              ],
+              [
+                "source",
+                5,
+                0,
+                -2,
+                14
+              ],
+              [
+                "source",
+                7,
+                0,
+                -14,
+                2
+              ]
+            ],
+            "activation_window_history": [
+              [
+                1,
+                -10
+              ],
+              [
+                2,
+                -8
+              ],
+              [
+                3,
+                -6
+              ],
+              [
+                4,
+                -4
+              ],
+              [
+                5,
+                -2
+              ]
+            ]
+          },
+          "scope": "hardware period of finite legal witness; input queues are not periodic",
+          "records_per_period": 16
+        }
+      }
+    }
+  ]
+}

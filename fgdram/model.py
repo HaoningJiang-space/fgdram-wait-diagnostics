@@ -102,7 +102,8 @@ class Simulator:
     to certify an additional independent row-control domain and its circuit cost.
     """
 
-    def __init__(self, config: Config, requests: list[Request], capture=True):
+    def __init__(self, config: Config, requests: list[Request], capture=True,
+                 candidate_observer=None):
         self.c = config
         self.requests = requests
         ids = [r.rid for r in requests]
@@ -118,6 +119,7 @@ class Simulator:
             assert set(r.depends) <= earlier, "dependencies must precede request"
             earlier.add(r.rid)
         self.capture = capture
+        self.candidate_observer = candidate_observer
         self.trace = []
         self.wait_samples = []
         self.rows = {(g, p): RowState() for g in range(config.grains) for p in range(2)}
@@ -439,6 +441,10 @@ class Simulator:
             self.schedule(end, "DATA_END", **data, port=port)
         self.ready_atoms = remaining
 
+    def order_candidates(self, candidates):
+        """Default policy, with an explicit hook for separately labelled diagnostics."""
+        return sorted(candidates, key=lambda v: ({"RD": 0, "PRE": 1, "ACT": 2}[v[0]], v[3]))
+
     def run(self):
         c = self.c
         while len(self.completed) < len(self.requests):
@@ -463,12 +469,14 @@ class Simulator:
                                                   "candidate": candidate,
                                                   "blockers": reasons})
             # Row hits first, then precharges, then oldest activation. No queue-HOL gate.
-            candidates.sort(key=lambda v: ({"RD": 0, "PRE": 1, "ACT": 2}[v[0]], v[3]))
+            candidates = self.order_candidates(candidates)
             issued = set()
             for candidate in candidates:
                 if not self.blockers(candidate):
                     self.issue(candidate)
                     issued.add(candidate)
+            if self.candidate_observer is not None:
+                self.candidate_observer(self.t, snapshot, issued)
             for candidate, reasons in snapshot:
                 self.stats["command_candidate_ns"] += c.clock_ns
                 if not reasons and candidate not in issued:

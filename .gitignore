@@ -4,3 +4,4 @@ sources/*.pdf
 sources/*.txt
 results/*/traces/
 results/*/wait_samples.jsonl
+results/.local_*/

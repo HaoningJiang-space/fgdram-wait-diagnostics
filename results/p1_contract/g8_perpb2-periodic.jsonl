@@ -1,0 +1,512 @@
+{"depends": [], "event": "ADMIT", "grain": 0, "offset": 0, "pb": 0, "release_ns": 0, "rid": 0, "row": 0, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 1, "offset": 0, "pb": 0, "release_ns": 0, "rid": 1, "row": 0, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 2, "offset": 0, "pb": 0, "release_ns": 0, "rid": 2, "row": 0, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 3, "offset": 0, "pb": 0, "release_ns": 0, "rid": 3, "row": 0, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 4, "offset": 0, "pb": 0, "release_ns": 0, "rid": 4, "row": 0, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 5, "offset": 0, "pb": 0, "release_ns": 0, "rid": 5, "row": 0, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 6, "offset": 0, "pb": 0, "release_ns": 0, "rid": 6, "row": 0, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 7, "offset": 0, "pb": 0, "release_ns": 0, "rid": 7, "row": 0, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 0, "offset": 0, "pb": 1, "release_ns": 0, "rid": 8, "row": 0, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 1, "offset": 0, "pb": 1, "release_ns": 0, "rid": 9, "row": 0, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 2, "offset": 0, "pb": 1, "release_ns": 0, "rid": 10, "row": 0, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 3, "offset": 0, "pb": 1, "release_ns": 0, "rid": 11, "row": 0, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 4, "offset": 0, "pb": 1, "release_ns": 0, "rid": 12, "row": 0, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 5, "offset": 0, "pb": 1, "release_ns": 0, "rid": 13, "row": 0, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 6, "offset": 0, "pb": 1, "release_ns": 0, "rid": 14, "row": 0, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 7, "offset": 0, "pb": 1, "release_ns": 0, "rid": 15, "row": 0, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 0, "offset": 0, "pb": 0, "release_ns": 0, "rid": 16, "row": 1, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 1, "offset": 0, "pb": 0, "release_ns": 0, "rid": 17, "row": 1, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 2, "offset": 0, "pb": 0, "release_ns": 0, "rid": 18, "row": 1, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 3, "offset": 0, "pb": 0, "release_ns": 0, "rid": 19, "row": 1, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 4, "offset": 0, "pb": 0, "release_ns": 0, "rid": 20, "row": 1, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 5, "offset": 0, "pb": 0, "release_ns": 0, "rid": 21, "row": 1, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 6, "offset": 0, "pb": 0, "release_ns": 0, "rid": 22, "row": 1, "sa": 0, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 7, "offset": 0, "pb": 0, "release_ns": 0, "rid": 23, "row": 1, "sa": 4, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 0, "offset": 0, "pb": 1, "release_ns": 0, "rid": 24, "row": 1, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 1, "offset": 0, "pb": 1, "release_ns": 0, "rid": 25, "row": 1, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 2, "offset": 0, "pb": 1, "release_ns": 0, "rid": 26, "row": 1, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 3, "offset": 0, "pb": 1, "release_ns": 0, "rid": 27, "row": 1, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 4, "offset": 0, "pb": 1, "release_ns": 0, "rid": 28, "row": 1, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 5, "offset": 0, "pb": 1, "release_ns": 0, "rid": 29, "row": 1, "sa": 6, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 6, "offset": 0, "pb": 1, "release_ns": 0, "rid": 30, "row": 1, "sa": 2, "size": 64, "time_ns": 0}
+{"depends": [], "event": "ADMIT", "grain": 7, "offset": 0, "pb": 1, "release_ns": 0, "rid": 31, "row": 1, "sa": 6, "size": 64, "time_ns": 0}
+{"accept_ns": 4, "activation_id": 1, "auto_precharge": false, "command": "ACT", "command_id": 1, "duration_ns": 4, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 0}
+{"accept_ns": 6, "activation_id": 2, "auto_precharge": false, "command": "ACT", "command_id": 2, "duration_ns": 4, "event": "COMMAND", "grain": 1, "group": 0, "lane": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 2}
+{"activation_id": 1, "command_id": 1, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 4}
+{"accept_ns": 8, "activation_id": 3, "auto_precharge": false, "command": "ACT", "command_id": 3, "duration_ns": 4, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 4}
+{"activation_id": 2, "command_id": 2, "event": "ACT_ACCEPT", "grain": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 6}
+{"accept_ns": 10, "activation_id": 4, "auto_precharge": false, "command": "ACT", "command_id": 4, "duration_ns": 4, "event": "COMMAND", "grain": 3, "group": 0, "lane": 1, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 6}
+{"activation_id": 3, "command_id": 3, "event": "ACT_ACCEPT", "grain": 2, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 8}
+{"accept_ns": 12, "activation_id": 5, "auto_precharge": false, "command": "ACT", "command_id": 5, "duration_ns": 4, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 8}
+{"activation_id": 4, "command_id": 4, "event": "ACT_ACCEPT", "grain": 3, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 10}
+{"accept_ns": 14, "activation_id": 6, "auto_precharge": false, "command": "ACT", "command_id": 6, "duration_ns": 4, "event": "COMMAND", "grain": 5, "group": 0, "lane": 1, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 10}
+{"activation_id": 5, "command_id": 5, "event": "ACT_ACCEPT", "grain": 4, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 12}
+{"accept_ns": 16, "activation_id": 7, "auto_precharge": false, "command": "ACT", "command_id": 7, "duration_ns": 4, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 12}
+{"activation_id": 6, "command_id": 6, "event": "ACT_ACCEPT", "grain": 5, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 14}
+{"accept_ns": 18, "activation_id": 8, "auto_precharge": false, "command": "ACT", "command_id": 8, "duration_ns": 4, "event": "COMMAND", "grain": 7, "group": 0, "lane": 1, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 14}
+{"activation_id": 7, "command_id": 7, "event": "ACT_ACCEPT", "grain": 6, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 16}
+{"activation_id": 8, "command_id": 8, "event": "ACT_ACCEPT", "grain": 7, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 18}
+{"accept_ns": 20, "activation_id": 1, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 9, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 18}
+{"activation_id": 1, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 9, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 20}
+{"accept_ns": 22, "activation_id": 2, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 10, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 20}
+{"activation_id": 2, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 10, "event": "READ_ACCEPT", "grain": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 22}
+{"accept_ns": 24, "activation_id": 3, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 11, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 22}
+{"activation_id": 3, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 11, "event": "READ_ACCEPT", "grain": 2, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 24}
+{"accept_ns": 26, "activation_id": 4, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 12, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 24}
+{"activation_id": 4, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 12, "event": "READ_ACCEPT", "grain": 3, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 26}
+{"accept_ns": 28, "activation_id": 5, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 13, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 26}
+{"activation_id": 5, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 13, "event": "READ_ACCEPT", "grain": 4, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 28}
+{"accept_ns": 30, "activation_id": 6, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 14, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 28}
+{"activation_id": 6, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 14, "event": "READ_ACCEPT", "grain": 5, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 30}
+{"accept_ns": 32, "activation_id": 7, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 15, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 30}
+{"activation_id": 7, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 15, "event": "READ_ACCEPT", "grain": 6, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 32}
+{"accept_ns": 34, "activation_id": 8, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 16, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 32}
+{"accept_ns": 36, "activation_id": 9, "auto_precharge": false, "command": "ACT", "command_id": 17, "duration_ns": 4, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 32}
+{"activation_id": 8, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 16, "event": "READ_ACCEPT", "grain": 7, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 34}
+{"accept_ns": 36, "activation_id": 1, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 18, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 34}
+{"accept_ns": 38, "activation_id": 10, "auto_precharge": false, "command": "ACT", "command_id": 19, "duration_ns": 4, "event": "COMMAND", "grain": 1, "group": 0, "lane": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 34}
+{"activation_id": 1, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 9, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 36}
+{"activation_id": 9, "command_id": 17, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 36}
+{"activation_id": 1, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 18, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 36}
+{"activation_id": 1, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 9, "end_ns": 52, "event": "DATA_START", "grain": 0, "pb": 0, "port": 0, "ready_ns": 36, "rid": 0, "row": 0, "sa": 0, "time_ns": 36}
+{"accept_ns": 38, "activation_id": 2, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 20, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 36}
+{"accept_ns": 40, "activation_id": 11, "auto_precharge": false, "command": "ACT", "command_id": 21, "duration_ns": 4, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 36}
+{"activation_id": 2, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 10, "event": "DATA_READY", "grain": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 38}
+{"activation_id": 10, "command_id": 19, "event": "ACT_ACCEPT", "grain": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 38}
+{"activation_id": 2, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 20, "event": "READ_ACCEPT", "grain": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 38}
+{"activation_id": 2, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 10, "end_ns": 54, "event": "DATA_START", "grain": 1, "pb": 0, "port": 1, "ready_ns": 38, "rid": 1, "row": 0, "sa": 4, "time_ns": 38}
+{"accept_ns": 40, "activation_id": 3, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 22, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 38}
+{"accept_ns": 42, "activation_id": 12, "auto_precharge": false, "command": "ACT", "command_id": 23, "duration_ns": 4, "event": "COMMAND", "grain": 3, "group": 0, "lane": 1, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 38}
+{"activation_id": 3, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 11, "event": "DATA_READY", "grain": 2, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 40}
+{"activation_id": 11, "command_id": 21, "event": "ACT_ACCEPT", "grain": 2, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 40}
+{"activation_id": 3, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 22, "event": "READ_ACCEPT", "grain": 2, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 40}
+{"activation_id": 3, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 11, "end_ns": 56, "event": "DATA_START", "grain": 2, "pb": 0, "port": 2, "ready_ns": 40, "rid": 2, "row": 0, "sa": 0, "time_ns": 40}
+{"accept_ns": 42, "activation_id": 4, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 24, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 40}
+{"accept_ns": 44, "activation_id": 13, "auto_precharge": false, "command": "ACT", "command_id": 25, "duration_ns": 4, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 40}
+{"activation_id": 4, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 12, "event": "DATA_READY", "grain": 3, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 42}
+{"activation_id": 12, "command_id": 23, "event": "ACT_ACCEPT", "grain": 3, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 42}
+{"activation_id": 4, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 24, "event": "READ_ACCEPT", "grain": 3, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 42}
+{"activation_id": 4, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 12, "end_ns": 58, "event": "DATA_START", "grain": 3, "pb": 0, "port": 3, "ready_ns": 42, "rid": 3, "row": 0, "sa": 4, "time_ns": 42}
+{"accept_ns": 44, "activation_id": 5, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 26, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 42}
+{"accept_ns": 46, "activation_id": 14, "auto_precharge": false, "command": "ACT", "command_id": 27, "duration_ns": 4, "event": "COMMAND", "grain": 5, "group": 0, "lane": 1, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 42}
+{"activation_id": 5, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 13, "event": "DATA_READY", "grain": 4, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 44}
+{"activation_id": 13, "command_id": 25, "event": "ACT_ACCEPT", "grain": 4, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 44}
+{"activation_id": 5, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 26, "event": "READ_ACCEPT", "grain": 4, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 44}
+{"activation_id": 5, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 13, "end_ns": 60, "event": "DATA_START", "grain": 4, "pb": 0, "port": 4, "ready_ns": 44, "rid": 4, "row": 0, "sa": 0, "time_ns": 44}
+{"accept_ns": 46, "activation_id": 6, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 28, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 44}
+{"accept_ns": 48, "activation_id": 15, "auto_precharge": false, "command": "ACT", "command_id": 29, "duration_ns": 4, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 44}
+{"activation_id": 6, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 14, "event": "DATA_READY", "grain": 5, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 46}
+{"activation_id": 14, "command_id": 27, "event": "ACT_ACCEPT", "grain": 5, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 46}
+{"activation_id": 6, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 28, "event": "READ_ACCEPT", "grain": 5, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 46}
+{"activation_id": 6, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 14, "end_ns": 62, "event": "DATA_START", "grain": 5, "pb": 0, "port": 5, "ready_ns": 46, "rid": 5, "row": 0, "sa": 4, "time_ns": 46}
+{"accept_ns": 48, "activation_id": 7, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 30, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 46}
+{"accept_ns": 50, "activation_id": 16, "auto_precharge": false, "command": "ACT", "command_id": 31, "duration_ns": 4, "event": "COMMAND", "grain": 7, "group": 0, "lane": 1, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 46}
+{"activation_id": 7, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 15, "event": "DATA_READY", "grain": 6, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 48}
+{"activation_id": 15, "command_id": 29, "event": "ACT_ACCEPT", "grain": 6, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 48}
+{"activation_id": 7, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 30, "event": "READ_ACCEPT", "grain": 6, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 48}
+{"activation_id": 7, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 15, "end_ns": 64, "event": "DATA_START", "grain": 6, "pb": 0, "port": 6, "ready_ns": 48, "rid": 6, "row": 0, "sa": 0, "time_ns": 48}
+{"accept_ns": 50, "activation_id": 8, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 32, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 48}
+{"activation_id": 8, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 16, "event": "DATA_READY", "grain": 7, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 50}
+{"activation_id": 16, "command_id": 31, "event": "ACT_ACCEPT", "grain": 7, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 50}
+{"activation_id": 8, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 32, "event": "READ_ACCEPT", "grain": 7, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 50}
+{"activation_id": 8, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 16, "end_ns": 66, "event": "DATA_START", "grain": 7, "pb": 0, "port": 7, "ready_ns": 50, "rid": 7, "row": 0, "sa": 4, "time_ns": 50}
+{"accept_ns": 52, "activation_id": 9, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 33, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 50}
+{"activation_id": 1, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 18, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 52}
+{"activation_id": 1, "auto": true, "command_id": 18, "event": "PRE_START", "grain": 0, "pb": 0, "row": 0, "sa": 0, "time_ns": 52}
+{"activation_id": 1, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 9, "event": "DATA_END", "grain": 0, "pb": 0, "port": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 52}
+{"activation_id": 9, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 33, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 52}
+{"activation_id": 1, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 18, "end_ns": 68, "event": "DATA_START", "grain": 0, "pb": 0, "port": 0, "ready_ns": 52, "rid": 0, "row": 0, "sa": 0, "time_ns": 52}
+{"accept_ns": 54, "activation_id": 10, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 34, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 52}
+{"activation_id": 2, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 20, "event": "DATA_READY", "grain": 1, "pb": 0, "rid": 1, "row": 0, "sa": 4, "time_ns": 54}
+{"activation_id": 2, "auto": true, "command_id": 20, "event": "PRE_START", "grain": 1, "pb": 0, "row": 0, "sa": 4, "time_ns": 54}
+{"activation_id": 2, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 10, "event": "DATA_END", "grain": 1, "pb": 0, "port": 1, "rid": 1, "row": 0, "sa": 4, "time_ns": 54}
+{"activation_id": 10, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 34, "event": "READ_ACCEPT", "grain": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 54}
+{"activation_id": 2, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 20, "end_ns": 70, "event": "DATA_START", "grain": 1, "pb": 0, "port": 1, "ready_ns": 54, "rid": 1, "row": 0, "sa": 4, "time_ns": 54}
+{"accept_ns": 56, "activation_id": 11, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 35, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 54}
+{"activation_id": 3, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 22, "event": "DATA_READY", "grain": 2, "pb": 0, "rid": 2, "row": 0, "sa": 0, "time_ns": 56}
+{"activation_id": 3, "auto": true, "command_id": 22, "event": "PRE_START", "grain": 2, "pb": 0, "row": 0, "sa": 0, "time_ns": 56}
+{"activation_id": 3, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 11, "event": "DATA_END", "grain": 2, "pb": 0, "port": 2, "rid": 2, "row": 0, "sa": 0, "time_ns": 56}
+{"activation_id": 11, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 35, "event": "READ_ACCEPT", "grain": 2, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 56}
+{"activation_id": 3, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 22, "end_ns": 72, "event": "DATA_START", "grain": 2, "pb": 0, "port": 2, "ready_ns": 56, "rid": 2, "row": 0, "sa": 0, "time_ns": 56}
+{"accept_ns": 58, "activation_id": 12, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 36, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 56}
+{"activation_id": 4, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 24, "event": "DATA_READY", "grain": 3, "pb": 0, "rid": 3, "row": 0, "sa": 4, "time_ns": 58}
+{"activation_id": 4, "auto": true, "command_id": 24, "event": "PRE_START", "grain": 3, "pb": 0, "row": 0, "sa": 4, "time_ns": 58}
+{"activation_id": 4, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 12, "event": "DATA_END", "grain": 3, "pb": 0, "port": 3, "rid": 3, "row": 0, "sa": 4, "time_ns": 58}
+{"activation_id": 12, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 36, "event": "READ_ACCEPT", "grain": 3, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 58}
+{"activation_id": 4, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 24, "end_ns": 74, "event": "DATA_START", "grain": 3, "pb": 0, "port": 3, "ready_ns": 58, "rid": 3, "row": 0, "sa": 4, "time_ns": 58}
+{"accept_ns": 60, "activation_id": 13, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 37, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 58}
+{"activation_id": 5, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 26, "event": "DATA_READY", "grain": 4, "pb": 0, "rid": 4, "row": 0, "sa": 0, "time_ns": 60}
+{"activation_id": 5, "auto": true, "command_id": 26, "event": "PRE_START", "grain": 4, "pb": 0, "row": 0, "sa": 0, "time_ns": 60}
+{"activation_id": 5, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 13, "event": "DATA_END", "grain": 4, "pb": 0, "port": 4, "rid": 4, "row": 0, "sa": 0, "time_ns": 60}
+{"activation_id": 13, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 37, "event": "READ_ACCEPT", "grain": 4, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 60}
+{"activation_id": 5, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 26, "end_ns": 76, "event": "DATA_START", "grain": 4, "pb": 0, "port": 4, "ready_ns": 60, "rid": 4, "row": 0, "sa": 0, "time_ns": 60}
+{"accept_ns": 62, "activation_id": 14, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 38, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 60}
+{"activation_id": 6, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 28, "event": "DATA_READY", "grain": 5, "pb": 0, "rid": 5, "row": 0, "sa": 4, "time_ns": 62}
+{"activation_id": 6, "auto": true, "command_id": 28, "event": "PRE_START", "grain": 5, "pb": 0, "row": 0, "sa": 4, "time_ns": 62}
+{"activation_id": 6, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 14, "event": "DATA_END", "grain": 5, "pb": 0, "port": 5, "rid": 5, "row": 0, "sa": 4, "time_ns": 62}
+{"activation_id": 14, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 38, "event": "READ_ACCEPT", "grain": 5, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 62}
+{"activation_id": 6, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 28, "end_ns": 78, "event": "DATA_START", "grain": 5, "pb": 0, "port": 5, "ready_ns": 62, "rid": 5, "row": 0, "sa": 4, "time_ns": 62}
+{"accept_ns": 64, "activation_id": 15, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 39, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 62}
+{"activation_id": 7, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 30, "event": "DATA_READY", "grain": 6, "pb": 0, "rid": 6, "row": 0, "sa": 0, "time_ns": 64}
+{"activation_id": 7, "auto": true, "command_id": 30, "event": "PRE_START", "grain": 6, "pb": 0, "row": 0, "sa": 0, "time_ns": 64}
+{"activation_id": 7, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 15, "event": "DATA_END", "grain": 6, "pb": 0, "port": 6, "rid": 6, "row": 0, "sa": 0, "time_ns": 64}
+{"activation_id": 15, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 39, "event": "READ_ACCEPT", "grain": 6, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 64}
+{"activation_id": 7, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 30, "end_ns": 80, "event": "DATA_START", "grain": 6, "pb": 0, "port": 6, "ready_ns": 64, "rid": 6, "row": 0, "sa": 0, "time_ns": 64}
+{"accept_ns": 66, "activation_id": 16, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 40, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 64}
+{"accept_ns": 68, "activation_id": 17, "auto_precharge": false, "command": "ACT", "command_id": 41, "duration_ns": 4, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 64}
+{"activation_id": 8, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 32, "event": "DATA_READY", "grain": 7, "pb": 0, "rid": 7, "row": 0, "sa": 4, "time_ns": 66}
+{"activation_id": 8, "auto": true, "command_id": 32, "event": "PRE_START", "grain": 7, "pb": 0, "row": 0, "sa": 4, "time_ns": 66}
+{"activation_id": 8, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 16, "event": "DATA_END", "grain": 7, "pb": 0, "port": 7, "rid": 7, "row": 0, "sa": 4, "time_ns": 66}
+{"activation_id": 16, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 40, "event": "READ_ACCEPT", "grain": 7, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 66}
+{"activation_id": 8, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 32, "end_ns": 82, "event": "DATA_START", "grain": 7, "pb": 0, "port": 7, "ready_ns": 66, "rid": 7, "row": 0, "sa": 4, "time_ns": 66}
+{"accept_ns": 68, "activation_id": 9, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 42, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 66}
+{"accept_ns": 70, "activation_id": 18, "auto_precharge": false, "command": "ACT", "command_id": 43, "duration_ns": 4, "event": "COMMAND", "grain": 1, "group": 0, "lane": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 66}
+{"activation_id": 9, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 33, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 68}
+{"activation_id": 1, "auto": true, "command_id": 18, "event": "PRE_END", "grain": 0, "pb": 0, "row": 0, "sa": 0, "time_ns": 68}
+{"activation_id": 1, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 18, "event": "DATA_END", "grain": 0, "pb": 0, "port": 0, "rid": 0, "row": 0, "sa": 0, "time_ns": 68}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 68, "rid": 0, "time_ns": 68}
+{"activation_id": 17, "command_id": 41, "event": "ACT_ACCEPT", "grain": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 68}
+{"activation_id": 9, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 42, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 68}
+{"activation_id": 9, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 33, "end_ns": 84, "event": "DATA_START", "grain": 0, "pb": 1, "port": 0, "ready_ns": 68, "rid": 8, "row": 0, "sa": 2, "time_ns": 68}
+{"accept_ns": 70, "activation_id": 10, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 44, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 68}
+{"accept_ns": 72, "activation_id": 19, "auto_precharge": false, "command": "ACT", "command_id": 45, "duration_ns": 4, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 68}
+{"activation_id": 10, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 34, "event": "DATA_READY", "grain": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 70}
+{"activation_id": 2, "auto": true, "command_id": 20, "event": "PRE_END", "grain": 1, "pb": 0, "row": 0, "sa": 4, "time_ns": 70}
+{"activation_id": 2, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 20, "event": "DATA_END", "grain": 1, "pb": 0, "port": 1, "rid": 1, "row": 0, "sa": 4, "time_ns": 70}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 70, "rid": 1, "time_ns": 70}
+{"activation_id": 18, "command_id": 43, "event": "ACT_ACCEPT", "grain": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 70}
+{"activation_id": 10, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 44, "event": "READ_ACCEPT", "grain": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 70}
+{"activation_id": 10, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 34, "end_ns": 86, "event": "DATA_START", "grain": 1, "pb": 1, "port": 1, "ready_ns": 70, "rid": 9, "row": 0, "sa": 6, "time_ns": 70}
+{"accept_ns": 72, "activation_id": 11, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 46, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 70}
+{"accept_ns": 74, "activation_id": 20, "auto_precharge": false, "command": "ACT", "command_id": 47, "duration_ns": 4, "event": "COMMAND", "grain": 3, "group": 0, "lane": 1, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 70}
+{"activation_id": 11, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 35, "event": "DATA_READY", "grain": 2, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 72}
+{"activation_id": 3, "auto": true, "command_id": 22, "event": "PRE_END", "grain": 2, "pb": 0, "row": 0, "sa": 0, "time_ns": 72}
+{"activation_id": 3, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 22, "event": "DATA_END", "grain": 2, "pb": 0, "port": 2, "rid": 2, "row": 0, "sa": 0, "time_ns": 72}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 72, "rid": 2, "time_ns": 72}
+{"activation_id": 19, "command_id": 45, "event": "ACT_ACCEPT", "grain": 2, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 72}
+{"activation_id": 11, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 46, "event": "READ_ACCEPT", "grain": 2, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 72}
+{"activation_id": 11, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 35, "end_ns": 88, "event": "DATA_START", "grain": 2, "pb": 1, "port": 2, "ready_ns": 72, "rid": 10, "row": 0, "sa": 2, "time_ns": 72}
+{"accept_ns": 74, "activation_id": 12, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 48, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 72}
+{"accept_ns": 76, "activation_id": 21, "auto_precharge": false, "command": "ACT", "command_id": 49, "duration_ns": 4, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 72}
+{"activation_id": 12, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 36, "event": "DATA_READY", "grain": 3, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 74}
+{"activation_id": 4, "auto": true, "command_id": 24, "event": "PRE_END", "grain": 3, "pb": 0, "row": 0, "sa": 4, "time_ns": 74}
+{"activation_id": 4, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 24, "event": "DATA_END", "grain": 3, "pb": 0, "port": 3, "rid": 3, "row": 0, "sa": 4, "time_ns": 74}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 74, "rid": 3, "time_ns": 74}
+{"activation_id": 20, "command_id": 47, "event": "ACT_ACCEPT", "grain": 3, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 74}
+{"activation_id": 12, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 48, "event": "READ_ACCEPT", "grain": 3, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 74}
+{"activation_id": 12, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 36, "end_ns": 90, "event": "DATA_START", "grain": 3, "pb": 1, "port": 3, "ready_ns": 74, "rid": 11, "row": 0, "sa": 6, "time_ns": 74}
+{"accept_ns": 76, "activation_id": 13, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 50, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 74}
+{"accept_ns": 78, "activation_id": 22, "auto_precharge": false, "command": "ACT", "command_id": 51, "duration_ns": 4, "event": "COMMAND", "grain": 5, "group": 0, "lane": 1, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 74}
+{"activation_id": 13, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 37, "event": "DATA_READY", "grain": 4, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 76}
+{"activation_id": 5, "auto": true, "command_id": 26, "event": "PRE_END", "grain": 4, "pb": 0, "row": 0, "sa": 0, "time_ns": 76}
+{"activation_id": 5, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 26, "event": "DATA_END", "grain": 4, "pb": 0, "port": 4, "rid": 4, "row": 0, "sa": 0, "time_ns": 76}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 76, "rid": 4, "time_ns": 76}
+{"activation_id": 21, "command_id": 49, "event": "ACT_ACCEPT", "grain": 4, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 76}
+{"activation_id": 13, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 50, "event": "READ_ACCEPT", "grain": 4, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 76}
+{"activation_id": 13, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 37, "end_ns": 92, "event": "DATA_START", "grain": 4, "pb": 1, "port": 4, "ready_ns": 76, "rid": 12, "row": 0, "sa": 2, "time_ns": 76}
+{"accept_ns": 78, "activation_id": 14, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 52, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 76}
+{"accept_ns": 80, "activation_id": 23, "auto_precharge": false, "command": "ACT", "command_id": 53, "duration_ns": 4, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 76}
+{"activation_id": 14, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 38, "event": "DATA_READY", "grain": 5, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 78}
+{"activation_id": 6, "auto": true, "command_id": 28, "event": "PRE_END", "grain": 5, "pb": 0, "row": 0, "sa": 4, "time_ns": 78}
+{"activation_id": 6, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 28, "event": "DATA_END", "grain": 5, "pb": 0, "port": 5, "rid": 5, "row": 0, "sa": 4, "time_ns": 78}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 78, "rid": 5, "time_ns": 78}
+{"activation_id": 22, "command_id": 51, "event": "ACT_ACCEPT", "grain": 5, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 78}
+{"activation_id": 14, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 52, "event": "READ_ACCEPT", "grain": 5, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 78}
+{"activation_id": 14, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 38, "end_ns": 94, "event": "DATA_START", "grain": 5, "pb": 1, "port": 5, "ready_ns": 78, "rid": 13, "row": 0, "sa": 6, "time_ns": 78}
+{"accept_ns": 80, "activation_id": 15, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 54, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 78}
+{"accept_ns": 82, "activation_id": 24, "auto_precharge": false, "command": "ACT", "command_id": 55, "duration_ns": 4, "event": "COMMAND", "grain": 7, "group": 0, "lane": 1, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 78}
+{"activation_id": 15, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 39, "event": "DATA_READY", "grain": 6, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 80}
+{"activation_id": 7, "auto": true, "command_id": 30, "event": "PRE_END", "grain": 6, "pb": 0, "row": 0, "sa": 0, "time_ns": 80}
+{"activation_id": 7, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 30, "event": "DATA_END", "grain": 6, "pb": 0, "port": 6, "rid": 6, "row": 0, "sa": 0, "time_ns": 80}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 80, "rid": 6, "time_ns": 80}
+{"activation_id": 23, "command_id": 53, "event": "ACT_ACCEPT", "grain": 6, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 80}
+{"activation_id": 15, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 54, "event": "READ_ACCEPT", "grain": 6, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 80}
+{"activation_id": 15, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 39, "end_ns": 96, "event": "DATA_START", "grain": 6, "pb": 1, "port": 6, "ready_ns": 80, "rid": 14, "row": 0, "sa": 2, "time_ns": 80}
+{"accept_ns": 82, "activation_id": 16, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 56, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 80}
+{"activation_id": 16, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 40, "event": "DATA_READY", "grain": 7, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 82}
+{"activation_id": 8, "auto": true, "command_id": 32, "event": "PRE_END", "grain": 7, "pb": 0, "row": 0, "sa": 4, "time_ns": 82}
+{"activation_id": 8, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 32, "event": "DATA_END", "grain": 7, "pb": 0, "port": 7, "rid": 7, "row": 0, "sa": 4, "time_ns": 82}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 82, "rid": 7, "time_ns": 82}
+{"activation_id": 24, "command_id": 55, "event": "ACT_ACCEPT", "grain": 7, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 82}
+{"activation_id": 16, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 56, "event": "READ_ACCEPT", "grain": 7, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 82}
+{"activation_id": 16, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 40, "end_ns": 98, "event": "DATA_START", "grain": 7, "pb": 1, "port": 7, "ready_ns": 82, "rid": 15, "row": 0, "sa": 6, "time_ns": 82}
+{"accept_ns": 84, "activation_id": 17, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 57, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 82}
+{"activation_id": 9, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 42, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 8, "row": 0, "sa": 2, "time_ns": 84}
+{"activation_id": 9, "auto": true, "command_id": 42, "event": "PRE_START", "grain": 0, "pb": 1, "row": 0, "sa": 2, "time_ns": 84}
+{"activation_id": 9, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 33, "event": "DATA_END", "grain": 0, "pb": 1, "port": 0, "rid": 8, "row": 0, "sa": 2, "time_ns": 84}
+{"activation_id": 17, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 57, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 84}
+{"activation_id": 9, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 42, "end_ns": 100, "event": "DATA_START", "grain": 0, "pb": 1, "port": 0, "ready_ns": 84, "rid": 8, "row": 0, "sa": 2, "time_ns": 84}
+{"accept_ns": 86, "activation_id": 18, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 58, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 84}
+{"activation_id": 10, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 44, "event": "DATA_READY", "grain": 1, "pb": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 86}
+{"activation_id": 10, "auto": true, "command_id": 44, "event": "PRE_START", "grain": 1, "pb": 1, "row": 0, "sa": 6, "time_ns": 86}
+{"activation_id": 10, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 34, "event": "DATA_END", "grain": 1, "pb": 1, "port": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 86}
+{"activation_id": 18, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 58, "event": "READ_ACCEPT", "grain": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 86}
+{"activation_id": 10, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 44, "end_ns": 102, "event": "DATA_START", "grain": 1, "pb": 1, "port": 1, "ready_ns": 86, "rid": 9, "row": 0, "sa": 6, "time_ns": 86}
+{"accept_ns": 88, "activation_id": 19, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 59, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 86}
+{"activation_id": 11, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 46, "event": "DATA_READY", "grain": 2, "pb": 1, "rid": 10, "row": 0, "sa": 2, "time_ns": 88}
+{"activation_id": 11, "auto": true, "command_id": 46, "event": "PRE_START", "grain": 2, "pb": 1, "row": 0, "sa": 2, "time_ns": 88}
+{"activation_id": 11, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 35, "event": "DATA_END", "grain": 2, "pb": 1, "port": 2, "rid": 10, "row": 0, "sa": 2, "time_ns": 88}
+{"activation_id": 19, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 59, "event": "READ_ACCEPT", "grain": 2, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 88}
+{"activation_id": 11, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 46, "end_ns": 104, "event": "DATA_START", "grain": 2, "pb": 1, "port": 2, "ready_ns": 88, "rid": 10, "row": 0, "sa": 2, "time_ns": 88}
+{"accept_ns": 90, "activation_id": 20, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 60, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 88}
+{"activation_id": 12, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 48, "event": "DATA_READY", "grain": 3, "pb": 1, "rid": 11, "row": 0, "sa": 6, "time_ns": 90}
+{"activation_id": 12, "auto": true, "command_id": 48, "event": "PRE_START", "grain": 3, "pb": 1, "row": 0, "sa": 6, "time_ns": 90}
+{"activation_id": 12, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 36, "event": "DATA_END", "grain": 3, "pb": 1, "port": 3, "rid": 11, "row": 0, "sa": 6, "time_ns": 90}
+{"activation_id": 20, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 60, "event": "READ_ACCEPT", "grain": 3, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 90}
+{"activation_id": 12, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 48, "end_ns": 106, "event": "DATA_START", "grain": 3, "pb": 1, "port": 3, "ready_ns": 90, "rid": 11, "row": 0, "sa": 6, "time_ns": 90}
+{"accept_ns": 92, "activation_id": 21, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 61, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 90}
+{"activation_id": 13, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 50, "event": "DATA_READY", "grain": 4, "pb": 1, "rid": 12, "row": 0, "sa": 2, "time_ns": 92}
+{"activation_id": 13, "auto": true, "command_id": 50, "event": "PRE_START", "grain": 4, "pb": 1, "row": 0, "sa": 2, "time_ns": 92}
+{"activation_id": 13, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 37, "event": "DATA_END", "grain": 4, "pb": 1, "port": 4, "rid": 12, "row": 0, "sa": 2, "time_ns": 92}
+{"activation_id": 21, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 61, "event": "READ_ACCEPT", "grain": 4, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 92}
+{"activation_id": 13, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 50, "end_ns": 108, "event": "DATA_START", "grain": 4, "pb": 1, "port": 4, "ready_ns": 92, "rid": 12, "row": 0, "sa": 2, "time_ns": 92}
+{"accept_ns": 94, "activation_id": 22, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 62, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 92}
+{"activation_id": 14, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 52, "event": "DATA_READY", "grain": 5, "pb": 1, "rid": 13, "row": 0, "sa": 6, "time_ns": 94}
+{"activation_id": 14, "auto": true, "command_id": 52, "event": "PRE_START", "grain": 5, "pb": 1, "row": 0, "sa": 6, "time_ns": 94}
+{"activation_id": 14, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 38, "event": "DATA_END", "grain": 5, "pb": 1, "port": 5, "rid": 13, "row": 0, "sa": 6, "time_ns": 94}
+{"activation_id": 22, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 62, "event": "READ_ACCEPT", "grain": 5, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 94}
+{"activation_id": 14, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 52, "end_ns": 110, "event": "DATA_START", "grain": 5, "pb": 1, "port": 5, "ready_ns": 94, "rid": 13, "row": 0, "sa": 6, "time_ns": 94}
+{"accept_ns": 96, "activation_id": 23, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 63, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 94}
+{"activation_id": 15, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 54, "event": "DATA_READY", "grain": 6, "pb": 1, "rid": 14, "row": 0, "sa": 2, "time_ns": 96}
+{"activation_id": 15, "auto": true, "command_id": 54, "event": "PRE_START", "grain": 6, "pb": 1, "row": 0, "sa": 2, "time_ns": 96}
+{"activation_id": 15, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 39, "event": "DATA_END", "grain": 6, "pb": 1, "port": 6, "rid": 14, "row": 0, "sa": 2, "time_ns": 96}
+{"activation_id": 23, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 63, "event": "READ_ACCEPT", "grain": 6, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 96}
+{"activation_id": 15, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 54, "end_ns": 112, "event": "DATA_START", "grain": 6, "pb": 1, "port": 6, "ready_ns": 96, "rid": 14, "row": 0, "sa": 2, "time_ns": 96}
+{"accept_ns": 98, "activation_id": 24, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 64, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 96}
+{"accept_ns": 100, "activation_id": 25, "auto_precharge": false, "command": "ACT", "command_id": 65, "duration_ns": 4, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 96}
+{"activation_id": 16, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 56, "event": "DATA_READY", "grain": 7, "pb": 1, "rid": 15, "row": 0, "sa": 6, "time_ns": 98}
+{"activation_id": 16, "auto": true, "command_id": 56, "event": "PRE_START", "grain": 7, "pb": 1, "row": 0, "sa": 6, "time_ns": 98}
+{"activation_id": 16, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 40, "event": "DATA_END", "grain": 7, "pb": 1, "port": 7, "rid": 15, "row": 0, "sa": 6, "time_ns": 98}
+{"activation_id": 24, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 64, "event": "READ_ACCEPT", "grain": 7, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 98}
+{"activation_id": 16, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 56, "end_ns": 114, "event": "DATA_START", "grain": 7, "pb": 1, "port": 7, "ready_ns": 98, "rid": 15, "row": 0, "sa": 6, "time_ns": 98}
+{"accept_ns": 100, "activation_id": 17, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 66, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 98}
+{"accept_ns": 102, "activation_id": 26, "auto_precharge": false, "command": "ACT", "command_id": 67, "duration_ns": 4, "event": "COMMAND", "grain": 1, "group": 0, "lane": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 98}
+{"activation_id": 17, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 57, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 100}
+{"activation_id": 9, "auto": true, "command_id": 42, "event": "PRE_END", "grain": 0, "pb": 1, "row": 0, "sa": 2, "time_ns": 100}
+{"activation_id": 9, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 42, "event": "DATA_END", "grain": 0, "pb": 1, "port": 0, "rid": 8, "row": 0, "sa": 2, "time_ns": 100}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 100, "rid": 8, "time_ns": 100}
+{"activation_id": 25, "command_id": 65, "event": "ACT_ACCEPT", "grain": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 100}
+{"activation_id": 17, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 66, "event": "READ_ACCEPT", "grain": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 100}
+{"activation_id": 17, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 57, "end_ns": 116, "event": "DATA_START", "grain": 0, "pb": 0, "port": 0, "ready_ns": 100, "rid": 16, "row": 1, "sa": 0, "time_ns": 100}
+{"accept_ns": 102, "activation_id": 18, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 68, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 100}
+{"accept_ns": 104, "activation_id": 27, "auto_precharge": false, "command": "ACT", "command_id": 69, "duration_ns": 4, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 100}
+{"activation_id": 18, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 58, "event": "DATA_READY", "grain": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 102}
+{"activation_id": 10, "auto": true, "command_id": 44, "event": "PRE_END", "grain": 1, "pb": 1, "row": 0, "sa": 6, "time_ns": 102}
+{"activation_id": 10, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 44, "event": "DATA_END", "grain": 1, "pb": 1, "port": 1, "rid": 9, "row": 0, "sa": 6, "time_ns": 102}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 102, "rid": 9, "time_ns": 102}
+{"activation_id": 26, "command_id": 67, "event": "ACT_ACCEPT", "grain": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 102}
+{"activation_id": 18, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 68, "event": "READ_ACCEPT", "grain": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 102}
+{"activation_id": 18, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 58, "end_ns": 118, "event": "DATA_START", "grain": 1, "pb": 0, "port": 1, "ready_ns": 102, "rid": 17, "row": 1, "sa": 4, "time_ns": 102}
+{"accept_ns": 104, "activation_id": 19, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 70, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 102}
+{"accept_ns": 106, "activation_id": 28, "auto_precharge": false, "command": "ACT", "command_id": 71, "duration_ns": 4, "event": "COMMAND", "grain": 3, "group": 0, "lane": 1, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 102}
+{"activation_id": 19, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 59, "event": "DATA_READY", "grain": 2, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 104}
+{"activation_id": 11, "auto": true, "command_id": 46, "event": "PRE_END", "grain": 2, "pb": 1, "row": 0, "sa": 2, "time_ns": 104}
+{"activation_id": 11, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 46, "event": "DATA_END", "grain": 2, "pb": 1, "port": 2, "rid": 10, "row": 0, "sa": 2, "time_ns": 104}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 104, "rid": 10, "time_ns": 104}
+{"activation_id": 27, "command_id": 69, "event": "ACT_ACCEPT", "grain": 2, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 104}
+{"activation_id": 19, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 70, "event": "READ_ACCEPT", "grain": 2, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 104}
+{"activation_id": 19, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 59, "end_ns": 120, "event": "DATA_START", "grain": 2, "pb": 0, "port": 2, "ready_ns": 104, "rid": 18, "row": 1, "sa": 0, "time_ns": 104}
+{"accept_ns": 106, "activation_id": 20, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 72, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 104}
+{"accept_ns": 108, "activation_id": 29, "auto_precharge": false, "command": "ACT", "command_id": 73, "duration_ns": 4, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 104}
+{"activation_id": 20, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 60, "event": "DATA_READY", "grain": 3, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 106}
+{"activation_id": 12, "auto": true, "command_id": 48, "event": "PRE_END", "grain": 3, "pb": 1, "row": 0, "sa": 6, "time_ns": 106}
+{"activation_id": 12, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 48, "event": "DATA_END", "grain": 3, "pb": 1, "port": 3, "rid": 11, "row": 0, "sa": 6, "time_ns": 106}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 106, "rid": 11, "time_ns": 106}
+{"activation_id": 28, "command_id": 71, "event": "ACT_ACCEPT", "grain": 3, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 106}
+{"activation_id": 20, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 72, "event": "READ_ACCEPT", "grain": 3, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 106}
+{"activation_id": 20, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 60, "end_ns": 122, "event": "DATA_START", "grain": 3, "pb": 0, "port": 3, "ready_ns": 106, "rid": 19, "row": 1, "sa": 4, "time_ns": 106}
+{"accept_ns": 108, "activation_id": 21, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 74, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 106}
+{"accept_ns": 110, "activation_id": 30, "auto_precharge": false, "command": "ACT", "command_id": 75, "duration_ns": 4, "event": "COMMAND", "grain": 5, "group": 0, "lane": 1, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 106}
+{"activation_id": 21, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 61, "event": "DATA_READY", "grain": 4, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 108}
+{"activation_id": 13, "auto": true, "command_id": 50, "event": "PRE_END", "grain": 4, "pb": 1, "row": 0, "sa": 2, "time_ns": 108}
+{"activation_id": 13, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 50, "event": "DATA_END", "grain": 4, "pb": 1, "port": 4, "rid": 12, "row": 0, "sa": 2, "time_ns": 108}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 108, "rid": 12, "time_ns": 108}
+{"activation_id": 29, "command_id": 73, "event": "ACT_ACCEPT", "grain": 4, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 108}
+{"activation_id": 21, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 74, "event": "READ_ACCEPT", "grain": 4, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 108}
+{"activation_id": 21, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 61, "end_ns": 124, "event": "DATA_START", "grain": 4, "pb": 0, "port": 4, "ready_ns": 108, "rid": 20, "row": 1, "sa": 0, "time_ns": 108}
+{"accept_ns": 110, "activation_id": 22, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 76, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 108}
+{"accept_ns": 112, "activation_id": 31, "auto_precharge": false, "command": "ACT", "command_id": 77, "duration_ns": 4, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 108}
+{"activation_id": 22, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 62, "event": "DATA_READY", "grain": 5, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 110}
+{"activation_id": 14, "auto": true, "command_id": 52, "event": "PRE_END", "grain": 5, "pb": 1, "row": 0, "sa": 6, "time_ns": 110}
+{"activation_id": 14, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 52, "event": "DATA_END", "grain": 5, "pb": 1, "port": 5, "rid": 13, "row": 0, "sa": 6, "time_ns": 110}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 110, "rid": 13, "time_ns": 110}
+{"activation_id": 30, "command_id": 75, "event": "ACT_ACCEPT", "grain": 5, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 110}
+{"activation_id": 22, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 76, "event": "READ_ACCEPT", "grain": 5, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 110}
+{"activation_id": 22, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 62, "end_ns": 126, "event": "DATA_START", "grain": 5, "pb": 0, "port": 5, "ready_ns": 110, "rid": 21, "row": 1, "sa": 4, "time_ns": 110}
+{"accept_ns": 112, "activation_id": 23, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 78, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 110}
+{"accept_ns": 114, "activation_id": 32, "auto_precharge": false, "command": "ACT", "command_id": 79, "duration_ns": 4, "event": "COMMAND", "grain": 7, "group": 0, "lane": 1, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 110}
+{"activation_id": 23, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 63, "event": "DATA_READY", "grain": 6, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 112}
+{"activation_id": 15, "auto": true, "command_id": 54, "event": "PRE_END", "grain": 6, "pb": 1, "row": 0, "sa": 2, "time_ns": 112}
+{"activation_id": 15, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 54, "event": "DATA_END", "grain": 6, "pb": 1, "port": 6, "rid": 14, "row": 0, "sa": 2, "time_ns": 112}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 112, "rid": 14, "time_ns": 112}
+{"activation_id": 31, "command_id": 77, "event": "ACT_ACCEPT", "grain": 6, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 112}
+{"activation_id": 23, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 78, "event": "READ_ACCEPT", "grain": 6, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 112}
+{"activation_id": 23, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 63, "end_ns": 128, "event": "DATA_START", "grain": 6, "pb": 0, "port": 6, "ready_ns": 112, "rid": 22, "row": 1, "sa": 0, "time_ns": 112}
+{"accept_ns": 114, "activation_id": 24, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 80, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 112}
+{"activation_id": 24, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 64, "event": "DATA_READY", "grain": 7, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 114}
+{"activation_id": 16, "auto": true, "command_id": 56, "event": "PRE_END", "grain": 7, "pb": 1, "row": 0, "sa": 6, "time_ns": 114}
+{"activation_id": 16, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 56, "event": "DATA_END", "grain": 7, "pb": 1, "port": 7, "rid": 15, "row": 0, "sa": 6, "time_ns": 114}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 114, "rid": 15, "time_ns": 114}
+{"activation_id": 32, "command_id": 79, "event": "ACT_ACCEPT", "grain": 7, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 114}
+{"activation_id": 24, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 80, "event": "READ_ACCEPT", "grain": 7, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 114}
+{"activation_id": 24, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 64, "end_ns": 130, "event": "DATA_START", "grain": 7, "pb": 0, "port": 7, "ready_ns": 114, "rid": 23, "row": 1, "sa": 4, "time_ns": 114}
+{"accept_ns": 116, "activation_id": 25, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 81, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 114}
+{"activation_id": 17, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 66, "event": "DATA_READY", "grain": 0, "pb": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 116}
+{"activation_id": 17, "auto": true, "command_id": 66, "event": "PRE_START", "grain": 0, "pb": 0, "row": 1, "sa": 0, "time_ns": 116}
+{"activation_id": 17, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 57, "event": "DATA_END", "grain": 0, "pb": 0, "port": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 116}
+{"activation_id": 25, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 81, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 116}
+{"activation_id": 17, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 66, "end_ns": 132, "event": "DATA_START", "grain": 0, "pb": 0, "port": 0, "ready_ns": 116, "rid": 16, "row": 1, "sa": 0, "time_ns": 116}
+{"accept_ns": 118, "activation_id": 26, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 82, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 116}
+{"activation_id": 18, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 68, "event": "DATA_READY", "grain": 1, "pb": 0, "rid": 17, "row": 1, "sa": 4, "time_ns": 118}
+{"activation_id": 18, "auto": true, "command_id": 68, "event": "PRE_START", "grain": 1, "pb": 0, "row": 1, "sa": 4, "time_ns": 118}
+{"activation_id": 18, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 58, "event": "DATA_END", "grain": 1, "pb": 0, "port": 1, "rid": 17, "row": 1, "sa": 4, "time_ns": 118}
+{"activation_id": 26, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 82, "event": "READ_ACCEPT", "grain": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 118}
+{"activation_id": 18, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 68, "end_ns": 134, "event": "DATA_START", "grain": 1, "pb": 0, "port": 1, "ready_ns": 118, "rid": 17, "row": 1, "sa": 4, "time_ns": 118}
+{"accept_ns": 120, "activation_id": 27, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 83, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 118}
+{"activation_id": 19, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 70, "event": "DATA_READY", "grain": 2, "pb": 0, "rid": 18, "row": 1, "sa": 0, "time_ns": 120}
+{"activation_id": 19, "auto": true, "command_id": 70, "event": "PRE_START", "grain": 2, "pb": 0, "row": 1, "sa": 0, "time_ns": 120}
+{"activation_id": 19, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 59, "event": "DATA_END", "grain": 2, "pb": 0, "port": 2, "rid": 18, "row": 1, "sa": 0, "time_ns": 120}
+{"activation_id": 27, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 83, "event": "READ_ACCEPT", "grain": 2, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 120}
+{"activation_id": 19, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 70, "end_ns": 136, "event": "DATA_START", "grain": 2, "pb": 0, "port": 2, "ready_ns": 120, "rid": 18, "row": 1, "sa": 0, "time_ns": 120}
+{"accept_ns": 122, "activation_id": 28, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 84, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 120}
+{"activation_id": 20, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 72, "event": "DATA_READY", "grain": 3, "pb": 0, "rid": 19, "row": 1, "sa": 4, "time_ns": 122}
+{"activation_id": 20, "auto": true, "command_id": 72, "event": "PRE_START", "grain": 3, "pb": 0, "row": 1, "sa": 4, "time_ns": 122}
+{"activation_id": 20, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 60, "event": "DATA_END", "grain": 3, "pb": 0, "port": 3, "rid": 19, "row": 1, "sa": 4, "time_ns": 122}
+{"activation_id": 28, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 84, "event": "READ_ACCEPT", "grain": 3, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 122}
+{"activation_id": 20, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 72, "end_ns": 138, "event": "DATA_START", "grain": 3, "pb": 0, "port": 3, "ready_ns": 122, "rid": 19, "row": 1, "sa": 4, "time_ns": 122}
+{"accept_ns": 124, "activation_id": 29, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 85, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 122}
+{"activation_id": 21, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 74, "event": "DATA_READY", "grain": 4, "pb": 0, "rid": 20, "row": 1, "sa": 0, "time_ns": 124}
+{"activation_id": 21, "auto": true, "command_id": 74, "event": "PRE_START", "grain": 4, "pb": 0, "row": 1, "sa": 0, "time_ns": 124}
+{"activation_id": 21, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 61, "event": "DATA_END", "grain": 4, "pb": 0, "port": 4, "rid": 20, "row": 1, "sa": 0, "time_ns": 124}
+{"activation_id": 29, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 85, "event": "READ_ACCEPT", "grain": 4, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 124}
+{"activation_id": 21, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 74, "end_ns": 140, "event": "DATA_START", "grain": 4, "pb": 0, "port": 4, "ready_ns": 124, "rid": 20, "row": 1, "sa": 0, "time_ns": 124}
+{"accept_ns": 126, "activation_id": 30, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 86, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 124}
+{"activation_id": 22, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 76, "event": "DATA_READY", "grain": 5, "pb": 0, "rid": 21, "row": 1, "sa": 4, "time_ns": 126}
+{"activation_id": 22, "auto": true, "command_id": 76, "event": "PRE_START", "grain": 5, "pb": 0, "row": 1, "sa": 4, "time_ns": 126}
+{"activation_id": 22, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 62, "event": "DATA_END", "grain": 5, "pb": 0, "port": 5, "rid": 21, "row": 1, "sa": 4, "time_ns": 126}
+{"activation_id": 30, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 86, "event": "READ_ACCEPT", "grain": 5, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 126}
+{"activation_id": 22, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 76, "end_ns": 142, "event": "DATA_START", "grain": 5, "pb": 0, "port": 5, "ready_ns": 126, "rid": 21, "row": 1, "sa": 4, "time_ns": 126}
+{"accept_ns": 128, "activation_id": 31, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 87, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 126}
+{"activation_id": 23, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 78, "event": "DATA_READY", "grain": 6, "pb": 0, "rid": 22, "row": 1, "sa": 0, "time_ns": 128}
+{"activation_id": 23, "auto": true, "command_id": 78, "event": "PRE_START", "grain": 6, "pb": 0, "row": 1, "sa": 0, "time_ns": 128}
+{"activation_id": 23, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 63, "event": "DATA_END", "grain": 6, "pb": 0, "port": 6, "rid": 22, "row": 1, "sa": 0, "time_ns": 128}
+{"activation_id": 31, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 87, "event": "READ_ACCEPT", "grain": 6, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 128}
+{"activation_id": 23, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 78, "end_ns": 144, "event": "DATA_START", "grain": 6, "pb": 0, "port": 6, "ready_ns": 128, "rid": 22, "row": 1, "sa": 0, "time_ns": 128}
+{"accept_ns": 130, "activation_id": 32, "atom": 0, "auto_precharge": false, "bytes": 32, "column_offset": 0, "command": "RD", "command_id": 88, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 128}
+{"activation_id": 24, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 80, "event": "DATA_READY", "grain": 7, "pb": 0, "rid": 23, "row": 1, "sa": 4, "time_ns": 130}
+{"activation_id": 24, "auto": true, "command_id": 80, "event": "PRE_START", "grain": 7, "pb": 0, "row": 1, "sa": 4, "time_ns": 130}
+{"activation_id": 24, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 64, "event": "DATA_END", "grain": 7, "pb": 0, "port": 7, "rid": 23, "row": 1, "sa": 4, "time_ns": 130}
+{"activation_id": 32, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 88, "event": "READ_ACCEPT", "grain": 7, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 130}
+{"activation_id": 24, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 80, "end_ns": 146, "event": "DATA_START", "grain": 7, "pb": 0, "port": 7, "ready_ns": 130, "rid": 23, "row": 1, "sa": 4, "time_ns": 130}
+{"accept_ns": 132, "activation_id": 25, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 89, "duration_ns": 2, "event": "COMMAND", "grain": 0, "group": 0, "lane": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 130}
+{"activation_id": 25, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 81, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 132}
+{"activation_id": 17, "auto": true, "command_id": 66, "event": "PRE_END", "grain": 0, "pb": 0, "row": 1, "sa": 0, "time_ns": 132}
+{"activation_id": 17, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 66, "event": "DATA_END", "grain": 0, "pb": 0, "port": 0, "rid": 16, "row": 1, "sa": 0, "time_ns": 132}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 132, "rid": 16, "time_ns": 132}
+{"activation_id": 25, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 89, "event": "READ_ACCEPT", "grain": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 132}
+{"activation_id": 25, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 81, "end_ns": 148, "event": "DATA_START", "grain": 0, "pb": 1, "port": 0, "ready_ns": 132, "rid": 24, "row": 1, "sa": 2, "time_ns": 132}
+{"accept_ns": 134, "activation_id": 26, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 90, "duration_ns": 2, "event": "COMMAND", "grain": 1, "group": 0, "lane": 0, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 132}
+{"activation_id": 26, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 82, "event": "DATA_READY", "grain": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 134}
+{"activation_id": 18, "auto": true, "command_id": 68, "event": "PRE_END", "grain": 1, "pb": 0, "row": 1, "sa": 4, "time_ns": 134}
+{"activation_id": 18, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 68, "event": "DATA_END", "grain": 1, "pb": 0, "port": 1, "rid": 17, "row": 1, "sa": 4, "time_ns": 134}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 134, "rid": 17, "time_ns": 134}
+{"activation_id": 26, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 90, "event": "READ_ACCEPT", "grain": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 134}
+{"activation_id": 26, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 82, "end_ns": 150, "event": "DATA_START", "grain": 1, "pb": 1, "port": 1, "ready_ns": 134, "rid": 25, "row": 1, "sa": 6, "time_ns": 134}
+{"accept_ns": 136, "activation_id": 27, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 91, "duration_ns": 2, "event": "COMMAND", "grain": 2, "group": 0, "lane": 0, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 134}
+{"activation_id": 27, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 83, "event": "DATA_READY", "grain": 2, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 136}
+{"activation_id": 19, "auto": true, "command_id": 70, "event": "PRE_END", "grain": 2, "pb": 0, "row": 1, "sa": 0, "time_ns": 136}
+{"activation_id": 19, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 70, "event": "DATA_END", "grain": 2, "pb": 0, "port": 2, "rid": 18, "row": 1, "sa": 0, "time_ns": 136}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 136, "rid": 18, "time_ns": 136}
+{"activation_id": 27, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 91, "event": "READ_ACCEPT", "grain": 2, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 136}
+{"activation_id": 27, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 83, "end_ns": 152, "event": "DATA_START", "grain": 2, "pb": 1, "port": 2, "ready_ns": 136, "rid": 26, "row": 1, "sa": 2, "time_ns": 136}
+{"accept_ns": 138, "activation_id": 28, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 92, "duration_ns": 2, "event": "COMMAND", "grain": 3, "group": 0, "lane": 0, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 136}
+{"activation_id": 28, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 84, "event": "DATA_READY", "grain": 3, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 138}
+{"activation_id": 20, "auto": true, "command_id": 72, "event": "PRE_END", "grain": 3, "pb": 0, "row": 1, "sa": 4, "time_ns": 138}
+{"activation_id": 20, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 72, "event": "DATA_END", "grain": 3, "pb": 0, "port": 3, "rid": 19, "row": 1, "sa": 4, "time_ns": 138}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 138, "rid": 19, "time_ns": 138}
+{"activation_id": 28, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 92, "event": "READ_ACCEPT", "grain": 3, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 138}
+{"activation_id": 28, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 84, "end_ns": 154, "event": "DATA_START", "grain": 3, "pb": 1, "port": 3, "ready_ns": 138, "rid": 27, "row": 1, "sa": 6, "time_ns": 138}
+{"accept_ns": 140, "activation_id": 29, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 93, "duration_ns": 2, "event": "COMMAND", "grain": 4, "group": 0, "lane": 0, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 138}
+{"activation_id": 29, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 85, "event": "DATA_READY", "grain": 4, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 140}
+{"activation_id": 21, "auto": true, "command_id": 74, "event": "PRE_END", "grain": 4, "pb": 0, "row": 1, "sa": 0, "time_ns": 140}
+{"activation_id": 21, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 74, "event": "DATA_END", "grain": 4, "pb": 0, "port": 4, "rid": 20, "row": 1, "sa": 0, "time_ns": 140}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 140, "rid": 20, "time_ns": 140}
+{"activation_id": 29, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 93, "event": "READ_ACCEPT", "grain": 4, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 140}
+{"activation_id": 29, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 85, "end_ns": 156, "event": "DATA_START", "grain": 4, "pb": 1, "port": 4, "ready_ns": 140, "rid": 28, "row": 1, "sa": 2, "time_ns": 140}
+{"accept_ns": 142, "activation_id": 30, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 94, "duration_ns": 2, "event": "COMMAND", "grain": 5, "group": 0, "lane": 0, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 140}
+{"activation_id": 30, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 86, "event": "DATA_READY", "grain": 5, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 142}
+{"activation_id": 22, "auto": true, "command_id": 76, "event": "PRE_END", "grain": 5, "pb": 0, "row": 1, "sa": 4, "time_ns": 142}
+{"activation_id": 22, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 76, "event": "DATA_END", "grain": 5, "pb": 0, "port": 5, "rid": 21, "row": 1, "sa": 4, "time_ns": 142}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 142, "rid": 21, "time_ns": 142}
+{"activation_id": 30, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 94, "event": "READ_ACCEPT", "grain": 5, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 142}
+{"activation_id": 30, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 86, "end_ns": 158, "event": "DATA_START", "grain": 5, "pb": 1, "port": 5, "ready_ns": 142, "rid": 29, "row": 1, "sa": 6, "time_ns": 142}
+{"accept_ns": 144, "activation_id": 31, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 95, "duration_ns": 2, "event": "COMMAND", "grain": 6, "group": 0, "lane": 0, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 142}
+{"activation_id": 31, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 87, "event": "DATA_READY", "grain": 6, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 144}
+{"activation_id": 23, "auto": true, "command_id": 78, "event": "PRE_END", "grain": 6, "pb": 0, "row": 1, "sa": 0, "time_ns": 144}
+{"activation_id": 23, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 78, "event": "DATA_END", "grain": 6, "pb": 0, "port": 6, "rid": 22, "row": 1, "sa": 0, "time_ns": 144}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 144, "rid": 22, "time_ns": 144}
+{"activation_id": 31, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 95, "event": "READ_ACCEPT", "grain": 6, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 144}
+{"activation_id": 31, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 87, "end_ns": 160, "event": "DATA_START", "grain": 6, "pb": 1, "port": 6, "ready_ns": 144, "rid": 30, "row": 1, "sa": 2, "time_ns": 144}
+{"accept_ns": 146, "activation_id": 32, "atom": 1, "auto_precharge": true, "bytes": 32, "column_offset": 32, "command": "RD", "command_id": 96, "duration_ns": 2, "event": "COMMAND", "grain": 7, "group": 0, "lane": 0, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 144}
+{"activation_id": 32, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 88, "event": "DATA_READY", "grain": 7, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 146}
+{"activation_id": 24, "auto": true, "command_id": 80, "event": "PRE_END", "grain": 7, "pb": 0, "row": 1, "sa": 4, "time_ns": 146}
+{"activation_id": 24, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 80, "event": "DATA_END", "grain": 7, "pb": 0, "port": 7, "rid": 23, "row": 1, "sa": 4, "time_ns": 146}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 146, "rid": 23, "time_ns": 146}
+{"activation_id": 32, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 96, "event": "READ_ACCEPT", "grain": 7, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 146}
+{"activation_id": 32, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 88, "end_ns": 162, "event": "DATA_START", "grain": 7, "pb": 1, "port": 7, "ready_ns": 146, "rid": 31, "row": 1, "sa": 6, "time_ns": 146}
+{"activation_id": 25, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 89, "event": "DATA_READY", "grain": 0, "pb": 1, "rid": 24, "row": 1, "sa": 2, "time_ns": 148}
+{"activation_id": 25, "auto": true, "command_id": 89, "event": "PRE_START", "grain": 0, "pb": 1, "row": 1, "sa": 2, "time_ns": 148}
+{"activation_id": 25, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 81, "event": "DATA_END", "grain": 0, "pb": 1, "port": 0, "rid": 24, "row": 1, "sa": 2, "time_ns": 148}
+{"activation_id": 25, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 89, "end_ns": 164, "event": "DATA_START", "grain": 0, "pb": 1, "port": 0, "ready_ns": 148, "rid": 24, "row": 1, "sa": 2, "time_ns": 148}
+{"activation_id": 26, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 90, "event": "DATA_READY", "grain": 1, "pb": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 150}
+{"activation_id": 26, "auto": true, "command_id": 90, "event": "PRE_START", "grain": 1, "pb": 1, "row": 1, "sa": 6, "time_ns": 150}
+{"activation_id": 26, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 82, "event": "DATA_END", "grain": 1, "pb": 1, "port": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 150}
+{"activation_id": 26, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 90, "end_ns": 166, "event": "DATA_START", "grain": 1, "pb": 1, "port": 1, "ready_ns": 150, "rid": 25, "row": 1, "sa": 6, "time_ns": 150}
+{"activation_id": 27, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 91, "event": "DATA_READY", "grain": 2, "pb": 1, "rid": 26, "row": 1, "sa": 2, "time_ns": 152}
+{"activation_id": 27, "auto": true, "command_id": 91, "event": "PRE_START", "grain": 2, "pb": 1, "row": 1, "sa": 2, "time_ns": 152}
+{"activation_id": 27, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 83, "event": "DATA_END", "grain": 2, "pb": 1, "port": 2, "rid": 26, "row": 1, "sa": 2, "time_ns": 152}
+{"activation_id": 27, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 91, "end_ns": 168, "event": "DATA_START", "grain": 2, "pb": 1, "port": 2, "ready_ns": 152, "rid": 26, "row": 1, "sa": 2, "time_ns": 152}
+{"activation_id": 28, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 92, "event": "DATA_READY", "grain": 3, "pb": 1, "rid": 27, "row": 1, "sa": 6, "time_ns": 154}
+{"activation_id": 28, "auto": true, "command_id": 92, "event": "PRE_START", "grain": 3, "pb": 1, "row": 1, "sa": 6, "time_ns": 154}
+{"activation_id": 28, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 84, "event": "DATA_END", "grain": 3, "pb": 1, "port": 3, "rid": 27, "row": 1, "sa": 6, "time_ns": 154}
+{"activation_id": 28, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 92, "end_ns": 170, "event": "DATA_START", "grain": 3, "pb": 1, "port": 3, "ready_ns": 154, "rid": 27, "row": 1, "sa": 6, "time_ns": 154}
+{"activation_id": 29, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 93, "event": "DATA_READY", "grain": 4, "pb": 1, "rid": 28, "row": 1, "sa": 2, "time_ns": 156}
+{"activation_id": 29, "auto": true, "command_id": 93, "event": "PRE_START", "grain": 4, "pb": 1, "row": 1, "sa": 2, "time_ns": 156}
+{"activation_id": 29, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 85, "event": "DATA_END", "grain": 4, "pb": 1, "port": 4, "rid": 28, "row": 1, "sa": 2, "time_ns": 156}
+{"activation_id": 29, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 93, "end_ns": 172, "event": "DATA_START", "grain": 4, "pb": 1, "port": 4, "ready_ns": 156, "rid": 28, "row": 1, "sa": 2, "time_ns": 156}
+{"activation_id": 30, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 94, "event": "DATA_READY", "grain": 5, "pb": 1, "rid": 29, "row": 1, "sa": 6, "time_ns": 158}
+{"activation_id": 30, "auto": true, "command_id": 94, "event": "PRE_START", "grain": 5, "pb": 1, "row": 1, "sa": 6, "time_ns": 158}
+{"activation_id": 30, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 86, "event": "DATA_END", "grain": 5, "pb": 1, "port": 5, "rid": 29, "row": 1, "sa": 6, "time_ns": 158}
+{"activation_id": 30, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 94, "end_ns": 174, "event": "DATA_START", "grain": 5, "pb": 1, "port": 5, "ready_ns": 158, "rid": 29, "row": 1, "sa": 6, "time_ns": 158}
+{"activation_id": 31, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 95, "event": "DATA_READY", "grain": 6, "pb": 1, "rid": 30, "row": 1, "sa": 2, "time_ns": 160}
+{"activation_id": 31, "auto": true, "command_id": 95, "event": "PRE_START", "grain": 6, "pb": 1, "row": 1, "sa": 2, "time_ns": 160}
+{"activation_id": 31, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 87, "event": "DATA_END", "grain": 6, "pb": 1, "port": 6, "rid": 30, "row": 1, "sa": 2, "time_ns": 160}
+{"activation_id": 31, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 95, "end_ns": 176, "event": "DATA_START", "grain": 6, "pb": 1, "port": 6, "ready_ns": 160, "rid": 30, "row": 1, "sa": 2, "time_ns": 160}
+{"activation_id": 32, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 96, "event": "DATA_READY", "grain": 7, "pb": 1, "rid": 31, "row": 1, "sa": 6, "time_ns": 162}
+{"activation_id": 32, "auto": true, "command_id": 96, "event": "PRE_START", "grain": 7, "pb": 1, "row": 1, "sa": 6, "time_ns": 162}
+{"activation_id": 32, "atom": 0, "bytes": 32, "column_offset": 0, "command_id": 88, "event": "DATA_END", "grain": 7, "pb": 1, "port": 7, "rid": 31, "row": 1, "sa": 6, "time_ns": 162}
+{"activation_id": 32, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 96, "end_ns": 178, "event": "DATA_START", "grain": 7, "pb": 1, "port": 7, "ready_ns": 162, "rid": 31, "row": 1, "sa": 6, "time_ns": 162}
+{"activation_id": 25, "auto": true, "command_id": 89, "event": "PRE_END", "grain": 0, "pb": 1, "row": 1, "sa": 2, "time_ns": 164}
+{"activation_id": 25, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 89, "event": "DATA_END", "grain": 0, "pb": 1, "port": 0, "rid": 24, "row": 1, "sa": 2, "time_ns": 164}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 164, "rid": 24, "time_ns": 164}
+{"activation_id": 26, "auto": true, "command_id": 90, "event": "PRE_END", "grain": 1, "pb": 1, "row": 1, "sa": 6, "time_ns": 166}
+{"activation_id": 26, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 90, "event": "DATA_END", "grain": 1, "pb": 1, "port": 1, "rid": 25, "row": 1, "sa": 6, "time_ns": 166}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 166, "rid": 25, "time_ns": 166}
+{"activation_id": 27, "auto": true, "command_id": 91, "event": "PRE_END", "grain": 2, "pb": 1, "row": 1, "sa": 2, "time_ns": 168}
+{"activation_id": 27, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 91, "event": "DATA_END", "grain": 2, "pb": 1, "port": 2, "rid": 26, "row": 1, "sa": 2, "time_ns": 168}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 168, "rid": 26, "time_ns": 168}
+{"activation_id": 28, "auto": true, "command_id": 92, "event": "PRE_END", "grain": 3, "pb": 1, "row": 1, "sa": 6, "time_ns": 170}
+{"activation_id": 28, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 92, "event": "DATA_END", "grain": 3, "pb": 1, "port": 3, "rid": 27, "row": 1, "sa": 6, "time_ns": 170}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 170, "rid": 27, "time_ns": 170}
+{"activation_id": 29, "auto": true, "command_id": 93, "event": "PRE_END", "grain": 4, "pb": 1, "row": 1, "sa": 2, "time_ns": 172}
+{"activation_id": 29, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 93, "event": "DATA_END", "grain": 4, "pb": 1, "port": 4, "rid": 28, "row": 1, "sa": 2, "time_ns": 172}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 172, "rid": 28, "time_ns": 172}
+{"activation_id": 30, "auto": true, "command_id": 94, "event": "PRE_END", "grain": 5, "pb": 1, "row": 1, "sa": 6, "time_ns": 174}
+{"activation_id": 30, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 94, "event": "DATA_END", "grain": 5, "pb": 1, "port": 5, "rid": 29, "row": 1, "sa": 6, "time_ns": 174}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 174, "rid": 29, "time_ns": 174}
+{"activation_id": 31, "auto": true, "command_id": 95, "event": "PRE_END", "grain": 6, "pb": 1, "row": 1, "sa": 2, "time_ns": 176}
+{"activation_id": 31, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 95, "event": "DATA_END", "grain": 6, "pb": 1, "port": 6, "rid": 30, "row": 1, "sa": 2, "time_ns": 176}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 176, "rid": 30, "time_ns": 176}
+{"activation_id": 32, "auto": true, "command_id": 96, "event": "PRE_END", "grain": 7, "pb": 1, "row": 1, "sa": 6, "time_ns": 178}
+{"activation_id": 32, "atom": 1, "bytes": 32, "column_offset": 32, "command_id": 96, "event": "DATA_END", "grain": 7, "pb": 1, "port": 7, "rid": 31, "row": 1, "sa": 6, "time_ns": 178}
+{"admitted_ns": 0, "event": "COMPLETE", "latency_ns": 178, "rid": 31, "time_ns": 178}

@@ -1,0 +1,48 @@
+{
+  "python": "3.12.3",
+  "command": [
+    "scripts/run_timing_contract.py"
+  ],
+  "timing_contract": "legacy_0270afa",
+  "source": {
+    "source_url": "https://www.cs.utexas.edu/~skeckler/pubs/MICRO_2017_Fine_Grained_DRAM.pdf",
+    "source_pdf_sha256": "844ade727a07f3af0b831f2d43821f2a33d9fdba95d84bdf1491d634bcd24ab9",
+    "retrieved_utc_date": "2026-10-17",
+    "publication": "MICRO 2017, DOI 10.1145/3123939.3124545",
+    "scope": "Original publication; local PDF and extracted text are excluded from version control."
+  },
+  "code_sha256": {
+    "fgdram/__init__.py": "f99533693182ed28782909973155ff3faeaf8e04171c01f3702f910faf8e4131",
+    "fgdram/audit.py": "61418b445d94e02a4a4f1978de29f9a0d044ca27a69477db70dc0f34c2f502ba",
+    "fgdram/evidence.py": "6a9e9b98120075d2c0c8dd78df8f97ae49acfc15c607a00619d3f556d3df9993",
+    "fgdram/model.py": "d0ee6ea7f5393fe1f1048bf74995753562a07a8f0c2316d9f86bc2a2f679cb9e",
+    "fgdram/scheduling.py": "20a6b21780f4105cc65fb957bdf83ac7f4a518f164b7c05a446d4fc3f0d831f7",
+    "fgdram/workloads.py": "caa349b074d75a185ea4dafebdd908ed3856328be112d91f35362736f499be86",
+    "scripts/run_first_round.py": "77bbc8a81ecd26c1bc5648eb0b9273763ea8dba1f955f69b77f248682e36cbe2",
+    "scripts/run_timing_contract.py": "bbb328a9dc75a0dcc8f1dc52dce82bea2b06483e27e3aea166259cdd92ede2a1",
+    "scripts/verify_p0.py": "646cc31bbbac986f59ac4de42bbbe0a10a1f476e2e9fba371069f7e50583a035",
+    "tests/test_audit_mutations.py": "fe526347c87d4049e405373026e935315fe8a64de12208f70d6c19ab5369c02e",
+    "tests/test_evidence.py": "c2bf1e22d96098b1d587c9249679b9dfeb48fb3cd69f06e34cc3c151cb4b1aef",
+    "tests/test_model.py": "d6533bd8732e9f4a1202da309dfbc49181e98dc12fb6e883573b1d3aff8b2bb7"
+  },
+  "trace_sha256": {
+    "new_row_32.jsonl": "a20c154a4c4f63ad911da8a26cf8bc3f863958b225af55f91d3edeb4dffff4c9",
+    "new_row_64.jsonl": "a3638a02aa4682abfe26675c1941f0cca82719542ed0fcceb73a3e890427f9a7",
+    "row_hits.jsonl": "4974eaf504fa71dd09ed3d2611fa03843789d5edb37fde51c0ea44f989245da3",
+    "g2_perpb2-baseline.jsonl": "c82687233ceaf90ec9d9eae4f6831210916b3999472e76cadc718348fdab41db",
+    "g2_perpb2-best.jsonl": "c82687233ceaf90ec9d9eae4f6831210916b3999472e76cadc718348fdab41db",
+    "g2_perpb2-periodic.jsonl": "e4d0687753b5c5283ccc5fd27f452dfc06a3c0a883e90041c7c7e18e36e6844b",
+    "g2_perpb4-baseline.jsonl": "1f8b695b7cfe137a5d5e475a6140abe60cc95ed35f1a45c0f7584cfe7c9aa28e",
+    "g2_perpb4-best.jsonl": "1f8b695b7cfe137a5d5e475a6140abe60cc95ed35f1a45c0f7584cfe7c9aa28e",
+    "g2_perpb4-periodic.jsonl": "60e8b0cd864d0a23c6e75edf782df12b5551bf844f382360f411c7ae9d0652bb",
+    "g8_perpb2-baseline.jsonl": "ab0b49182a5ebf6d1fc221f8e0bd407e36c74dfcf20e15cfa9199d952a07de54",
+    "g8_perpb2-best.jsonl": "ab0b49182a5ebf6d1fc221f8e0bd407e36c74dfcf20e15cfa9199d952a07de54",
+    "g8_perpb2-periodic.jsonl": "827cd1ae7acefc1022d64631f1afa1b8c47dc6a5bf054c0365614598634c4763",
+    "g8_perpb4-baseline.jsonl": "03f37f284f7b67c5362426eb26f2b33e62547537a58a8b9142da0cca8cf850d7",
+    "g8_perpb4-best.jsonl": "03f37f284f7b67c5362426eb26f2b33e62547537a58a8b9142da0cca8cf850d7",
+    "g8_perpb4-periodic.jsonl": "0862c3bdc224ffb89eba400c076244ad8cbd2648befa1bfcc3e1060c618b0887"
+  },
+  "parent_commit": "a496398b566d9f0413f2a36f635700a3cbfb77fd",
+  "hardware_calibration": "not established; paper arrival/credit timings remain unknown",
+  "legacy_regression_receipt_sha256": "b344f34053facb4f05ca6bcd7b94ab66fab938c848ca46294ec8fe24a81f2cf6"
+}
